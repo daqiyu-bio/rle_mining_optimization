@@ -1,0 +1,18 @@
+library( dplyr )
+library( ggplot2 )
+library( reshape2 )
+
+
+library( dplyr )
+library( ggplot2 )
+library( reshape2 )
+
+
+lr1 <- read.csv( "04.log_parse.lr0.0001.log" )
+
+
+p1 <- lr1 %>% ggplot( aes(x=epoch, y=spearman, col = interaction(seed, type), shape = interaction(seed, type), group = interaction(seed, type)) ) + geom_point() + geom_path() + theme_bw() + facet_wrap(~model+method+loss) + scale_colour_manual( values =  c( "#B499BB", "#C5A59D", "#C5BE9F", "#A1C59F", "#9DA9C5", "#693476", "#8B4B3B", "#8B7D3F", "#438B3F", "#3B548B" ), guide = guide_legend( title = "Runs", ncol = 2) ) + scale_shape_manual( values = rep( c(16, 17), c(5, 5) ), guide = guide_legend( title = "Runs") ) + theme( axis.text = element_text(size = 12), strip.text = element_text(size = 12), legend.text = element_text(size = 12), strip.background = element_rect( fill = "grey90"), axis.title = element_text(size=15, face = "bold"), title = element_text(size=16, face = "bold") ) + xlab( "Epochs" ) + ylab( "Spearman's correaltion" ) + ggtitle( "lr 0.0001" ) + geom_hline( yintercept = 0, lty = "dashed")
+
+pdf( "05.R4_CrossValidation_lr0.0001.pdf", width = 12, height = 9 )
+p1
+dev.off()

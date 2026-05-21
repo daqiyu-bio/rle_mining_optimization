@@ -1,0 +1,20 @@
+library( dplyr )
+library( ggplot2 )
+library( reshape2 )
+
+
+TEM1  <- read.csv( "04.TEM1.log_parse.lr0.0001.log" )
+KKA2  <- read.csv( "04.KKA2.log_parse.lr0.0001.log" )
+avGFP <- read.csv( "04.avGFP.log_parse.lr0.0001.log" )
+
+TEM1$data  <- "TEM1"
+KKA2$data  <- "KKA2"
+avGFP$data <- "avGFP"
+
+
+p2 <- rbind.data.frame( TEM1, KKA2, avGFP ) %>% mutate( type2 = ifelse( epoch == 21, "test", type ) ) %>% ggplot( aes(x=epoch, y=spearman, col = method, shape = model, lty = loss, group = interaction(model, method, loss, type2)) ) + geom_point() + geom_path() + theme_bw() + facet_wrap(~type+data) + theme( text = element_text(size = 15), title = element_text(face = "bold") ) + xlab( "Epochs" ) + ylab( "Spearman's correaltion" ) + geom_hline( yintercept = 0, lty = "dashed") + scale_shape_manual( values = c(17, 16, 15) )
+
+
+pdf( "05.Control_CrossValidation_lr0.0001.pdf", width = 12, height = 7 )
+p2
+dev.off()

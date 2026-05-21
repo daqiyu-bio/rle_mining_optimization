@@ -1,0 +1,16 @@
+tool:
+  bwa: /path/to/bwa
+  java: /path/to/java
+  picard: /path/to/picard.jar
+  samtools: /path/to/samtools
+  bedtools: /path/to/bedtools
+  blat: /path/to/blat
+  cutadapt: /path/to/cutadapt
+  fastp: /path/to/fastp
+  umi_tools: /path/to/umi_tools
+
+E: Mosaic end (ME) sequence used in Tn5-based library preparation. (e.g. AGATGTGTATAAGAGACAG)
+
+species:
+  human:
+    genome: /path/to/genome.fa

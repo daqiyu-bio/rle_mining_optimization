@@ -1,0 +1,21 @@
+name: pllm_optimization
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - pytorch=2.6.0
+  - pytorch-cuda=12.4
+  - cuda-toolkit=12.4
+  - cudnn=12.4
+  - torchvision=0.21.0
+  - torchaudio=0.21.0
+  - numpy
+  - pandas
+  - scipy
+  - transformers
+  - peft

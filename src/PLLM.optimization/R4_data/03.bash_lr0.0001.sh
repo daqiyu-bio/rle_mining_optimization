@@ -1,0 +1,33 @@
+model_dir = /directory to downloaded models/
+
+log_dir = "./logs"
+test -d ${log_dir} || mkdir -p ${log_dir}
+
+for i in 101 102 103 104 105;do
+python   03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/esm2_finetuned_epoch20_R4 --batch_size 16 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.ESM2ft_epoch400_layer4_listMLE_lr0.0001.seed${i}.log
+
+python  03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/Prime_690M --batch_size 16 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.Prime_epoch400_layer4_listMLE_lr0.0001.seed${i}.log
+
+python 03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --foldseek_path ${foldseek_dir}/foldseek/bin/foldseek --foldseek_util_path ${model_dir}/SaProt/utils/foldseek_util.py --pdb_path 02.R4_43.AF3.protein.pdb --chain_id A --model_name ${model_dir}/SaProt_650M_PDB --batch_size 16 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.SaProt_epoch400_layer4_listMLE_lr0.0001.seed${i}.log
+
+python   03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/esm2_finetuned_epoch20_R4 --batch_size 5 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001  --log_path ${log_dir}/03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.ESM2ft_epoch400_layer4_MSEloss_lr0.0001.seed${i}.log
+
+python  03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/Prime_690M --batch_size 5 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001  --log_path ${log_dir}/03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.Prime_epoch400_layer4_MSEloss_lr0.0001.seed${i}.log
+
+python 03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --foldseek_path ${foldseek_dir}/foldseek/bin/foldseek --foldseek_util_path ${model_dir}/SaProt/utils/foldseek_util.py --pdb_path 02.R4_43.AF3.protein.pdb --chain_id A --model_name ${model_dir}/SaProt_650M_PDB --batch_size 5 --num_epochs 400 --top_layers 4 --method top_layer --learning_rate 0.0001 --log_path ${log_dir}/03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.SaProt_epoch400_layer4_MSEloss_lr0.0001.seed${i}.log
+
+
+
+python   03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/esm2_finetuned_epoch20_R4 --batch_size 12 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.ESM2ft_epoch400_lora_listMLE_lr0.0001.seed${i}.log
+
+python  03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/Prime_690M --batch_size 16 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.Prime_epoch400_lora_listMLE_lr0.0001.seed${i}.log
+
+python 03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --foldseek_path ${foldseek_dir}/foldseek/bin/foldseek --foldseek_util_path ${model_dir}/SaProt/utils/foldseek_util.py --pdb_path 02.R4_43.AF3.protein.pdb --chain_id A --model_name ${model_dir}/SaProt_650M_PDB --batch_size 8 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001 --use_listmle --log_path ${log_dir}/03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.SaProt_epoch400_lora_listMLE_lr0.0001.seed${i}.log
+
+python   03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/esm2_finetuned_epoch20_R4 --batch_size 5 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001  --log_path ${log_dir}/03.ESM2_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.ESM2ft_epoch400_lora_MSEloss_lr0.0001.seed${i}.log
+
+python  03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --model_name ${model_dir}/Prime_690M --batch_size 5 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001  --log_path ${log_dir}/03.Prime_690M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.Prime_epoch400_lora_MSEloss_lr0.0001.seed${i}.log
+
+python 03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.py --seed ${i} --csv_path 01.R4_A43_SingleMutation_chosen_modeling_20250705.subsampled.${i}.csv --foldseek_path ${foldseek_dir}/foldseek/bin/foldseek --foldseek_util_path ${model_dir}/SaProt/utils/foldseek_util.py --pdb_path 02.R4_43.AF3.protein.pdb --chain_id A --model_name ${model_dir}/SaProt_650M_PDB --batch_size 5 --num_epochs 400 --rank_count 4 --method lora --learning_rate 0.0001 --log_path ${log_dir}/03.SaProt_650M_FineTunning_regression_manual_assembled_R4.M1.predictions_TrainValidation.SaProt_epoch400_lora_MSEloss_lr0.0001.seed${i}.log
+done
+

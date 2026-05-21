@@ -1,0 +1,2453 @@
+2025-08-09 15:38:13,019 - INFO - Random seed: 42
+2025-08-09 15:38:13,019 - INFO - Model: ../../autodl-tmp/Prime_690M
+2025-08-09 15:38:13,019 - INFO - Data: R4_A43_SingleMutation_chosen_modeling_20250705.csv
+2025-08-09 15:38:13,019 - INFO - Method: lora
+2025-08-09 15:38:13,019 - INFO - Rank count: 4
+2025-08-09 15:38:13,019 - INFO - Batch size: 5
+2025-08-09 15:38:13,019 - INFO - Epochs: 400
+2025-08-09 15:38:13,019 - INFO - lr: 0.0001
+2025-08-09 15:39:30,540 - INFO - Train size: 107
+2025-08-09 15:39:30,541 - INFO - Valid size: 54
+2025-08-09 15:39:30,541 - INFO - Test  size: 19380
+2025-08-09 15:39:33,040 - INFO - MSELoss: Ture
+2025-08-09 15:39:33,044 - INFO - Warming up steps: 1000
+2025-08-09 15:39:35,492 - INFO - Epoch [1/400] Step [1/22] Loss: 7.132
+2025-08-09 15:39:59,089 - INFO - Training loss: 9.475739392367275
+2025-08-09 15:40:10,526 - INFO - Train Pearson correlation: -0.083
+2025-08-09 15:40:10,526 - INFO - Train Spearman correlation: -0.116
+2025-08-09 15:40:16,279 - INFO - Validation Pearson correlation: 0.149
+2025-08-09 15:40:16,279 - INFO - Validation Spearman correlation: 0.223
+2025-08-09 15:40:17,448 - INFO - Epoch [2/400] Step [1/22] Loss: 4.393
+2025-08-09 15:40:41,278 - INFO - Training loss: 9.31901164488359
+2025-08-09 15:40:52,753 - INFO - Train Pearson correlation: -0.079
+2025-08-09 15:40:52,754 - INFO - Train Spearman correlation: -0.120
+2025-08-09 15:40:58,533 - INFO - Validation Pearson correlation: 0.150
+2025-08-09 15:40:58,533 - INFO - Validation Spearman correlation: 0.203
+2025-08-09 15:40:59,706 - INFO - Epoch [3/400] Step [1/22] Loss: 9.217
+2025-08-09 15:41:23,602 - INFO - Training loss: 7.9143194502050225
+2025-08-09 15:41:35,096 - INFO - Train Pearson correlation: -0.070
+2025-08-09 15:41:35,096 - INFO - Train Spearman correlation: -0.118
+2025-08-09 15:41:40,881 - INFO - Validation Pearson correlation: 0.150
+2025-08-09 15:41:40,882 - INFO - Validation Spearman correlation: 0.182
+2025-08-09 15:41:42,057 - INFO - Epoch [4/400] Step [1/22] Loss: 10.219
+2025-08-09 15:42:05,977 - INFO - Training loss: 6.434324784712358
+2025-08-09 15:42:17,476 - INFO - Train Pearson correlation: -0.052
+2025-08-09 15:42:17,476 - INFO - Train Spearman correlation: -0.108
+2025-08-09 15:42:23,262 - INFO - Validation Pearson correlation: 0.151
+2025-08-09 15:42:23,262 - INFO - Validation Spearman correlation: 0.175
+2025-08-09 15:42:24,436 - INFO - Epoch [5/400] Step [1/22] Loss: 5.595
+2025-08-09 15:42:49,062 - INFO - Training loss: 4.3213407017967915
+2025-08-09 15:43:00,564 - INFO - Train Pearson correlation: -0.019
+2025-08-09 15:43:00,565 - INFO - Train Spearman correlation: -0.069
+2025-08-09 15:43:06,348 - INFO - Validation Pearson correlation: 0.153
+2025-08-09 15:43:06,348 - INFO - Validation Spearman correlation: 0.143
+2025-08-09 15:43:07,523 - INFO - Epoch [6/400] Step [1/22] Loss: 2.507
+2025-08-09 15:43:31,449 - INFO - Training loss: 1.9055981757965954
+2025-08-09 15:43:55,517 - INFO - Train Pearson correlation: 0.029
+2025-08-09 15:43:55,518 - INFO - Train Spearman correlation: -0.029
+2025-08-09 15:44:01,302 - INFO - Validation Pearson correlation: 0.157
+2025-08-09 15:44:01,302 - INFO - Validation Spearman correlation: 0.139
+2025-08-09 15:44:02,498 - INFO - Epoch [7/400] Step [1/22] Loss: 0.610
+2025-08-09 15:44:26,356 - INFO - Training loss: 1.0233449692075902
+2025-08-09 15:44:37,835 - INFO - Train Pearson correlation: 0.056
+2025-08-09 15:44:37,835 - INFO - Train Spearman correlation: -0.013
+2025-08-09 15:44:44,747 - INFO - Validation Pearson correlation: 0.159
+2025-08-09 15:44:44,747 - INFO - Validation Spearman correlation: 0.159
+2025-08-09 15:44:45,928 - INFO - Epoch [8/400] Step [1/22] Loss: 0.753
+2025-08-09 15:45:09,826 - INFO - Training loss: 1.2041451958092777
+2025-08-09 15:45:21,326 - INFO - Train Pearson correlation: 0.055
+2025-08-09 15:45:21,327 - INFO - Train Spearman correlation: 0.005
+2025-08-09 15:45:27,112 - INFO - Validation Pearson correlation: 0.153
+2025-08-09 15:45:27,112 - INFO - Validation Spearman correlation: 0.150
+2025-08-09 15:45:28,288 - INFO - Epoch [9/400] Step [1/22] Loss: 1.905
+2025-08-09 15:45:58,048 - INFO - Training loss: 1.2243815003470941
+2025-08-09 15:46:09,544 - INFO - Train Pearson correlation: 0.072
+2025-08-09 15:46:09,544 - INFO - Train Spearman correlation: 0.021
+2025-08-09 15:46:15,324 - INFO - Validation Pearson correlation: 0.150
+2025-08-09 15:46:15,324 - INFO - Validation Spearman correlation: 0.146
+2025-08-09 15:46:16,497 - INFO - Epoch [10/400] Step [1/22] Loss: 0.090
+2025-08-09 15:46:40,418 - INFO - Training loss: 1.0977058339525352
+2025-08-09 15:46:54,234 - INFO - Train Pearson correlation: 0.097
+2025-08-09 15:46:54,238 - INFO - Train Spearman correlation: 0.041
+2025-08-09 15:47:00,031 - INFO - Validation Pearson correlation: 0.145
+2025-08-09 15:47:00,031 - INFO - Validation Spearman correlation: 0.140
+2025-08-09 15:47:01,206 - INFO - Epoch [11/400] Step [1/22] Loss: 1.120
+2025-08-09 15:47:25,122 - INFO - Training loss: 1.0913508466698907
+2025-08-09 15:47:36,626 - INFO - Train Pearson correlation: 0.118
+2025-08-09 15:47:36,626 - INFO - Train Spearman correlation: 0.046
+2025-08-09 15:47:42,874 - INFO - Validation Pearson correlation: 0.140
+2025-08-09 15:47:42,874 - INFO - Validation Spearman correlation: 0.135
+2025-08-09 15:47:44,048 - INFO - Epoch [12/400] Step [1/22] Loss: 1.556
+2025-08-09 15:48:07,974 - INFO - Training loss: 1.1211813104084947
+2025-08-09 15:48:19,478 - INFO - Train Pearson correlation: 0.137
+2025-08-09 15:48:19,478 - INFO - Train Spearman correlation: 0.061
+2025-08-09 15:48:25,267 - INFO - Validation Pearson correlation: 0.141
+2025-08-09 15:48:25,267 - INFO - Validation Spearman correlation: 0.144
+2025-08-09 15:48:26,442 - INFO - Epoch [13/400] Step [1/22] Loss: 0.694
+2025-08-09 15:48:51,909 - INFO - Training loss: 1.0526138042861766
+2025-08-09 15:49:03,419 - INFO - Train Pearson correlation: 0.176
+2025-08-09 15:49:03,420 - INFO - Train Spearman correlation: 0.095
+2025-08-09 15:49:09,208 - INFO - Validation Pearson correlation: 0.142
+2025-08-09 15:49:09,209 - INFO - Validation Spearman correlation: 0.131
+2025-08-09 15:49:10,384 - INFO - Epoch [14/400] Step [1/22] Loss: 1.639
+2025-08-09 15:49:34,321 - INFO - Training loss: 1.0718933076343753
+2025-08-09 15:49:45,839 - INFO - Train Pearson correlation: 0.198
+2025-08-09 15:49:45,840 - INFO - Train Spearman correlation: 0.118
+2025-08-09 15:49:51,634 - INFO - Validation Pearson correlation: 0.141
+2025-08-09 15:49:51,634 - INFO - Validation Spearman correlation: 0.145
+2025-08-09 15:49:52,808 - INFO - Epoch [15/400] Step [1/22] Loss: 0.301
+2025-08-09 15:50:16,747 - INFO - Training loss: 1.0156395719809965
+2025-08-09 15:50:28,257 - INFO - Train Pearson correlation: 0.228
+2025-08-09 15:50:28,257 - INFO - Train Spearman correlation: 0.144
+2025-08-09 15:50:34,047 - INFO - Validation Pearson correlation: 0.137
+2025-08-09 15:50:34,047 - INFO - Validation Spearman correlation: 0.116
+2025-08-09 15:50:35,222 - INFO - Epoch [16/400] Step [1/22] Loss: 1.274
+2025-08-09 15:51:03,738 - INFO - Training loss: 1.053437621586702
+2025-08-09 15:51:15,243 - INFO - Train Pearson correlation: 0.275
+2025-08-09 15:51:15,243 - INFO - Train Spearman correlation: 0.181
+2025-08-09 15:51:21,033 - INFO - Validation Pearson correlation: 0.135
+2025-08-09 15:51:21,034 - INFO - Validation Spearman correlation: 0.134
+2025-08-09 15:51:22,208 - INFO - Epoch [17/400] Step [1/22] Loss: 0.298
+2025-08-09 15:51:50,303 - INFO - Training loss: 1.0503381502560594
+2025-08-09 15:52:01,804 - INFO - Train Pearson correlation: 0.296
+2025-08-09 15:52:01,804 - INFO - Train Spearman correlation: 0.234
+2025-08-09 15:52:07,584 - INFO - Validation Pearson correlation: 0.139
+2025-08-09 15:52:07,584 - INFO - Validation Spearman correlation: 0.119
+2025-08-09 15:52:08,758 - INFO - Epoch [18/400] Step [1/22] Loss: 1.169
+2025-08-09 15:52:32,677 - INFO - Training loss: 1.038975136523897
+2025-08-09 15:52:45,060 - INFO - Train Pearson correlation: 0.335
+2025-08-09 15:52:45,069 - INFO - Train Spearman correlation: 0.271
+2025-08-09 15:52:50,883 - INFO - Validation Pearson correlation: 0.122
+2025-08-09 15:52:50,884 - INFO - Validation Spearman correlation: 0.112
+2025-08-09 15:52:52,061 - INFO - Epoch [19/400] Step [1/22] Loss: 3.722
+2025-08-09 15:53:15,990 - INFO - Training loss: 1.0888169644908472
+2025-08-09 15:53:27,496 - INFO - Train Pearson correlation: 0.347
+2025-08-09 15:53:27,497 - INFO - Train Spearman correlation: 0.291
+2025-08-09 15:53:33,286 - INFO - Validation Pearson correlation: 0.117
+2025-08-09 15:53:33,286 - INFO - Validation Spearman correlation: 0.110
+2025-08-09 15:53:34,462 - INFO - Epoch [20/400] Step [1/22] Loss: 0.586
+2025-08-09 15:53:58,422 - INFO - Training loss: 0.9830633303658529
+2025-08-09 15:54:09,946 - INFO - Train Pearson correlation: 0.368
+2025-08-09 15:54:09,946 - INFO - Train Spearman correlation: 0.312
+2025-08-09 15:54:15,736 - INFO - Validation Pearson correlation: 0.111
+2025-08-09 15:54:15,736 - INFO - Validation Spearman correlation: 0.082
+2025-08-09 15:54:16,912 - INFO - Epoch [21/400] Step [1/22] Loss: 0.258
+2025-08-09 15:54:40,847 - INFO - Training loss: 1.0661523944952271
+2025-08-09 15:54:52,358 - INFO - Train Pearson correlation: 0.363
+2025-08-09 15:54:52,358 - INFO - Train Spearman correlation: 0.320
+2025-08-09 15:54:58,148 - INFO - Validation Pearson correlation: 0.107
+2025-08-09 15:54:58,148 - INFO - Validation Spearman correlation: 0.076
+2025-08-09 15:54:59,324 - INFO - Epoch [22/400] Step [1/22] Loss: 0.777
+2025-08-09 15:55:23,263 - INFO - Training loss: 0.9952855696055022
+2025-08-09 15:55:34,774 - INFO - Train Pearson correlation: 0.378
+2025-08-09 15:55:34,774 - INFO - Train Spearman correlation: 0.350
+2025-08-09 15:55:40,567 - INFO - Validation Pearson correlation: 0.097
+2025-08-09 15:55:40,567 - INFO - Validation Spearman correlation: 0.071
+2025-08-09 15:55:41,744 - INFO - Epoch [23/400] Step [1/22] Loss: 0.584
+2025-08-09 15:56:05,680 - INFO - Training loss: 1.0653896326707168
+2025-08-09 15:56:17,183 - INFO - Train Pearson correlation: 0.382
+2025-08-09 15:56:17,184 - INFO - Train Spearman correlation: 0.360
+2025-08-09 15:56:22,971 - INFO - Validation Pearson correlation: 0.101
+2025-08-09 15:56:22,971 - INFO - Validation Spearman correlation: 0.075
+2025-08-09 15:56:24,148 - INFO - Epoch [24/400] Step [1/22] Loss: 0.793
+2025-08-09 15:56:48,083 - INFO - Training loss: 1.0733131630854174
+2025-08-09 15:56:59,590 - INFO - Train Pearson correlation: 0.386
+2025-08-09 15:56:59,591 - INFO - Train Spearman correlation: 0.368
+2025-08-09 15:57:05,380 - INFO - Validation Pearson correlation: 0.097
+2025-08-09 15:57:05,380 - INFO - Validation Spearman correlation: 0.072
+2025-08-09 15:57:06,556 - INFO - Epoch [25/400] Step [1/22] Loss: 0.413
+2025-08-09 15:57:30,492 - INFO - Training loss: 1.0761765651404858
+2025-08-09 15:57:42,035 - INFO - Train Pearson correlation: 0.396
+2025-08-09 15:57:42,036 - INFO - Train Spearman correlation: 0.361
+2025-08-09 15:57:47,826 - INFO - Validation Pearson correlation: 0.075
+2025-08-09 15:57:47,826 - INFO - Validation Spearman correlation: 0.048
+2025-08-09 15:57:49,001 - INFO - Epoch [26/400] Step [1/22] Loss: 1.114
+2025-08-09 15:58:12,937 - INFO - Training loss: 1.066097896884788
+2025-08-09 15:58:24,445 - INFO - Train Pearson correlation: 0.392
+2025-08-09 15:58:24,446 - INFO - Train Spearman correlation: 0.345
+2025-08-09 15:58:30,235 - INFO - Validation Pearson correlation: 0.068
+2025-08-09 15:58:30,235 - INFO - Validation Spearman correlation: 0.035
+2025-08-09 15:58:31,409 - INFO - Epoch [27/400] Step [1/22] Loss: 0.399
+2025-08-09 15:58:55,346 - INFO - Training loss: 1.0890530747446148
+2025-08-09 15:59:06,856 - INFO - Train Pearson correlation: 0.404
+2025-08-09 15:59:06,857 - INFO - Train Spearman correlation: 0.366
+2025-08-09 15:59:12,651 - INFO - Validation Pearson correlation: 0.057
+2025-08-09 15:59:12,651 - INFO - Validation Spearman correlation: 0.015
+2025-08-09 15:59:13,827 - INFO - Epoch [28/400] Step [1/22] Loss: 3.047
+2025-08-09 15:59:37,760 - INFO - Training loss: 0.9884221567349001
+2025-08-09 15:59:49,267 - INFO - Train Pearson correlation: 0.423
+2025-08-09 15:59:49,267 - INFO - Train Spearman correlation: 0.427
+2025-08-09 15:59:55,054 - INFO - Validation Pearson correlation: 0.045
+2025-08-09 15:59:55,055 - INFO - Validation Spearman correlation: -0.002
+2025-08-09 15:59:56,230 - INFO - Epoch [29/400] Step [1/22] Loss: 1.218
+2025-08-09 16:00:20,162 - INFO - Training loss: 0.9858176157894459
+2025-08-09 16:00:31,670 - INFO - Train Pearson correlation: 0.433
+2025-08-09 16:00:31,670 - INFO - Train Spearman correlation: 0.459
+2025-08-09 16:00:37,458 - INFO - Validation Pearson correlation: 0.043
+2025-08-09 16:00:37,458 - INFO - Validation Spearman correlation: -0.007
+2025-08-09 16:00:38,633 - INFO - Epoch [30/400] Step [1/22] Loss: 1.124
+2025-08-09 16:01:02,962 - INFO - Training loss: 1.0481202792037616
+2025-08-09 16:01:14,477 - INFO - Train Pearson correlation: 0.448
+2025-08-09 16:01:14,477 - INFO - Train Spearman correlation: 0.477
+2025-08-09 16:01:20,266 - INFO - Validation Pearson correlation: 0.020
+2025-08-09 16:01:20,266 - INFO - Validation Spearman correlation: -0.011
+2025-08-09 16:01:21,441 - INFO - Epoch [31/400] Step [1/22] Loss: 0.089
+2025-08-09 16:01:46,266 - INFO - Training loss: 0.9908349503847685
+2025-08-09 16:01:57,772 - INFO - Train Pearson correlation: 0.458
+2025-08-09 16:01:57,772 - INFO - Train Spearman correlation: 0.484
+2025-08-09 16:02:03,561 - INFO - Validation Pearson correlation: 0.018
+2025-08-09 16:02:03,561 - INFO - Validation Spearman correlation: -0.011
+2025-08-09 16:02:04,738 - INFO - Epoch [32/400] Step [1/22] Loss: 1.201
+2025-08-09 16:02:28,671 - INFO - Training loss: 1.039502552287145
+2025-08-09 16:02:40,178 - INFO - Train Pearson correlation: 0.472
+2025-08-09 16:02:40,178 - INFO - Train Spearman correlation: 0.456
+2025-08-09 16:02:45,971 - INFO - Validation Pearson correlation: 0.021
+2025-08-09 16:02:45,971 - INFO - Validation Spearman correlation: -0.026
+2025-08-09 16:02:47,146 - INFO - Epoch [33/400] Step [1/22] Loss: 0.256
+2025-08-09 16:03:11,082 - INFO - Training loss: 1.037919987331737
+2025-08-09 16:03:22,587 - INFO - Train Pearson correlation: 0.442
+2025-08-09 16:03:22,587 - INFO - Train Spearman correlation: 0.410
+2025-08-09 16:03:28,378 - INFO - Validation Pearson correlation: 0.017
+2025-08-09 16:03:28,378 - INFO - Validation Spearman correlation: -0.021
+2025-08-09 16:03:29,552 - INFO - Epoch [34/400] Step [1/22] Loss: 0.583
+2025-08-09 16:03:53,490 - INFO - Training loss: 0.9800497794693167
+2025-08-09 16:04:04,996 - INFO - Train Pearson correlation: 0.455
+2025-08-09 16:04:04,996 - INFO - Train Spearman correlation: 0.433
+2025-08-09 16:04:10,786 - INFO - Validation Pearson correlation: 0.001
+2025-08-09 16:04:10,786 - INFO - Validation Spearman correlation: -0.058
+2025-08-09 16:04:11,960 - INFO - Epoch [35/400] Step [1/22] Loss: 0.825
+2025-08-09 16:04:35,890 - INFO - Training loss: 1.0245336395773021
+2025-08-09 16:04:47,397 - INFO - Train Pearson correlation: 0.465
+2025-08-09 16:04:47,398 - INFO - Train Spearman correlation: 0.496
+2025-08-09 16:04:53,184 - INFO - Validation Pearson correlation: 0.002
+2025-08-09 16:04:53,185 - INFO - Validation Spearman correlation: -0.039
+2025-08-09 16:04:54,364 - INFO - Epoch [36/400] Step [1/22] Loss: 0.380
+2025-08-09 16:05:18,297 - INFO - Training loss: 1.0328747162764722
+2025-08-09 16:05:29,800 - INFO - Train Pearson correlation: 0.480
+2025-08-09 16:05:29,801 - INFO - Train Spearman correlation: 0.540
+2025-08-09 16:05:35,588 - INFO - Validation Pearson correlation: -0.011
+2025-08-09 16:05:35,588 - INFO - Validation Spearman correlation: -0.028
+2025-08-09 16:05:36,763 - INFO - Epoch [37/400] Step [1/22] Loss: 2.888
+2025-08-09 16:06:00,682 - INFO - Training loss: 1.0208004543727094
+2025-08-09 16:06:12,181 - INFO - Train Pearson correlation: 0.502
+2025-08-09 16:06:12,182 - INFO - Train Spearman correlation: 0.584
+2025-08-09 16:06:17,968 - INFO - Validation Pearson correlation: -0.009
+2025-08-09 16:06:17,968 - INFO - Validation Spearman correlation: -0.019
+2025-08-09 16:06:19,142 - INFO - Epoch [38/400] Step [1/22] Loss: 0.241
+2025-08-09 16:06:43,068 - INFO - Training loss: 1.0712580965323881
+2025-08-09 16:06:54,571 - INFO - Train Pearson correlation: 0.500
+2025-08-09 16:06:54,571 - INFO - Train Spearman correlation: 0.541
+2025-08-09 16:07:00,360 - INFO - Validation Pearson correlation: 0.015
+2025-08-09 16:07:00,360 - INFO - Validation Spearman correlation: -0.030
+2025-08-09 16:07:01,536 - INFO - Epoch [39/400] Step [1/22] Loss: 0.581
+2025-08-09 16:07:25,457 - INFO - Training loss: 1.008651111444289
+2025-08-09 16:07:36,952 - INFO - Train Pearson correlation: 0.499
+2025-08-09 16:07:36,952 - INFO - Train Spearman correlation: 0.491
+2025-08-09 16:07:42,904 - INFO - Validation Pearson correlation: 0.019
+2025-08-09 16:07:42,904 - INFO - Validation Spearman correlation: -0.054
+2025-08-09 16:07:44,085 - INFO - Epoch [40/400] Step [1/22] Loss: 0.908
+2025-08-09 16:08:08,007 - INFO - Training loss: 1.019962462681261
+2025-08-09 16:08:19,516 - INFO - Train Pearson correlation: 0.520
+2025-08-09 16:08:19,516 - INFO - Train Spearman correlation: 0.550
+2025-08-09 16:08:25,303 - INFO - Validation Pearson correlation: -0.003
+2025-08-09 16:08:25,303 - INFO - Validation Spearman correlation: -0.061
+2025-08-09 16:08:26,478 - INFO - Epoch [41/400] Step [1/22] Loss: 0.744
+2025-08-09 16:08:50,408 - INFO - Training loss: 0.9931795525957238
+2025-08-09 16:09:01,924 - INFO - Train Pearson correlation: 0.545
+2025-08-09 16:09:01,924 - INFO - Train Spearman correlation: 0.598
+2025-08-09 16:09:07,712 - INFO - Validation Pearson correlation: -0.004
+2025-08-09 16:09:07,712 - INFO - Validation Spearman correlation: -0.037
+2025-08-09 16:09:08,885 - INFO - Epoch [42/400] Step [1/22] Loss: 0.399
+2025-08-09 16:09:32,806 - INFO - Training loss: 1.0095770508050919
+2025-08-09 16:09:44,308 - INFO - Train Pearson correlation: 0.537
+2025-08-09 16:09:44,308 - INFO - Train Spearman correlation: 0.568
+2025-08-09 16:09:50,093 - INFO - Validation Pearson correlation: 0.021
+2025-08-09 16:09:50,093 - INFO - Validation Spearman correlation: -0.015
+2025-08-09 16:09:51,270 - INFO - Epoch [43/400] Step [1/22] Loss: 0.567
+2025-08-09 16:10:15,203 - INFO - Training loss: 0.9765213565392927
+2025-08-09 16:10:26,727 - INFO - Train Pearson correlation: 0.550
+2025-08-09 16:10:26,727 - INFO - Train Spearman correlation: 0.601
+2025-08-09 16:10:32,516 - INFO - Validation Pearson correlation: 0.015
+2025-08-09 16:10:32,516 - INFO - Validation Spearman correlation: -0.000
+2025-08-09 16:10:33,690 - INFO - Epoch [44/400] Step [1/22] Loss: 0.566
+2025-08-09 16:10:57,745 - INFO - Training loss: 1.0380499383265323
+2025-08-09 16:11:09,283 - INFO - Train Pearson correlation: 0.578
+2025-08-09 16:11:09,284 - INFO - Train Spearman correlation: 0.646
+2025-08-09 16:11:15,074 - INFO - Validation Pearson correlation: 0.011
+2025-08-09 16:11:15,074 - INFO - Validation Spearman correlation: 0.022
+2025-08-09 16:11:16,249 - INFO - Epoch [45/400] Step [1/22] Loss: 0.644
+2025-08-09 16:11:40,176 - INFO - Training loss: 0.9708926499482583
+2025-08-09 16:11:51,784 - INFO - Train Pearson correlation: 0.582
+2025-08-09 16:11:51,784 - INFO - Train Spearman correlation: 0.674
+2025-08-09 16:11:57,570 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 16:11:57,571 - INFO - Validation Spearman correlation: -0.018
+2025-08-09 16:11:58,745 - INFO - Epoch [46/400] Step [1/22] Loss: 0.636
+2025-08-09 16:12:22,678 - INFO - Training loss: 1.0195914994586597
+2025-08-09 16:12:34,184 - INFO - Train Pearson correlation: 0.562
+2025-08-09 16:12:34,184 - INFO - Train Spearman correlation: 0.646
+2025-08-09 16:12:39,971 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 16:12:39,971 - INFO - Validation Spearman correlation: -0.029
+2025-08-09 16:12:41,145 - INFO - Epoch [47/400] Step [1/22] Loss: 0.144
+2025-08-09 16:13:05,080 - INFO - Training loss: 1.141326430169019
+2025-08-09 16:13:16,586 - INFO - Train Pearson correlation: 0.587
+2025-08-09 16:13:16,586 - INFO - Train Spearman correlation: 0.673
+2025-08-09 16:13:22,373 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 16:13:22,373 - INFO - Validation Spearman correlation: -0.017
+2025-08-09 16:13:23,548 - INFO - Epoch [48/400] Step [1/22] Loss: 3.130
+2025-08-09 16:13:47,479 - INFO - Training loss: 0.9852935287424109
+2025-08-09 16:13:58,983 - INFO - Train Pearson correlation: 0.585
+2025-08-09 16:13:58,983 - INFO - Train Spearman correlation: 0.701
+2025-08-09 16:14:04,771 - INFO - Validation Pearson correlation: -0.020
+2025-08-09 16:14:04,771 - INFO - Validation Spearman correlation: 0.017
+2025-08-09 16:14:05,947 - INFO - Epoch [49/400] Step [1/22] Loss: 2.044
+2025-08-09 16:14:29,870 - INFO - Training loss: 0.9646740999411453
+2025-08-09 16:14:41,374 - INFO - Train Pearson correlation: 0.619
+2025-08-09 16:14:41,374 - INFO - Train Spearman correlation: 0.699
+2025-08-09 16:14:47,174 - INFO - Validation Pearson correlation: 0.001
+2025-08-09 16:14:47,174 - INFO - Validation Spearman correlation: 0.004
+2025-08-09 16:14:48,348 - INFO - Epoch [50/400] Step [1/22] Loss: 2.229
+2025-08-09 16:15:12,275 - INFO - Training loss: 0.9891799994829026
+2025-08-09 16:15:23,779 - INFO - Train Pearson correlation: 0.627
+2025-08-09 16:15:23,779 - INFO - Train Spearman correlation: 0.710
+2025-08-09 16:15:29,568 - INFO - Validation Pearson correlation: -0.004
+2025-08-09 16:15:29,569 - INFO - Validation Spearman correlation: 0.003
+2025-08-09 16:15:30,744 - INFO - Epoch [51/400] Step [1/22] Loss: 0.199
+2025-08-09 16:15:54,677 - INFO - Training loss: 1.0067740028554744
+2025-08-09 16:16:06,188 - INFO - Train Pearson correlation: 0.620
+2025-08-09 16:16:06,188 - INFO - Train Spearman correlation: 0.763
+2025-08-09 16:16:11,976 - INFO - Validation Pearson correlation: -0.065
+2025-08-09 16:16:11,976 - INFO - Validation Spearman correlation: -0.035
+2025-08-09 16:16:13,154 - INFO - Epoch [52/400] Step [1/22] Loss: 0.906
+2025-08-09 16:16:37,083 - INFO - Training loss: 1.0600163875655695
+2025-08-09 16:16:48,598 - INFO - Train Pearson correlation: 0.585
+2025-08-09 16:16:48,598 - INFO - Train Spearman correlation: 0.693
+2025-08-09 16:16:54,386 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 16:16:54,386 - INFO - Validation Spearman correlation: 0.036
+2025-08-09 16:16:55,567 - INFO - Epoch [53/400] Step [1/22] Loss: 0.659
+2025-08-09 16:17:19,500 - INFO - Training loss: 0.9776830996640704
+2025-08-09 16:17:31,006 - INFO - Train Pearson correlation: 0.613
+2025-08-09 16:17:31,006 - INFO - Train Spearman correlation: 0.671
+2025-08-09 16:17:36,795 - INFO - Validation Pearson correlation: -0.095
+2025-08-09 16:17:36,795 - INFO - Validation Spearman correlation: -0.047
+2025-08-09 16:17:37,969 - INFO - Epoch [54/400] Step [1/22] Loss: 0.144
+2025-08-09 16:18:01,903 - INFO - Training loss: 0.9980023261159658
+2025-08-09 16:18:13,414 - INFO - Train Pearson correlation: 0.539
+2025-08-09 16:18:13,414 - INFO - Train Spearman correlation: 0.721
+2025-08-09 16:18:19,202 - INFO - Validation Pearson correlation: -0.195
+2025-08-09 16:18:19,202 - INFO - Validation Spearman correlation: -0.040
+2025-08-09 16:18:20,378 - INFO - Epoch [55/400] Step [1/22] Loss: 0.348
+2025-08-09 16:18:44,307 - INFO - Training loss: 1.1717319705269553
+2025-08-09 16:18:55,811 - INFO - Train Pearson correlation: 0.543
+2025-08-09 16:18:55,811 - INFO - Train Spearman correlation: 0.733
+2025-08-09 16:19:01,599 - INFO - Validation Pearson correlation: -0.140
+2025-08-09 16:19:01,599 - INFO - Validation Spearman correlation: -0.023
+2025-08-09 16:19:02,775 - INFO - Epoch [56/400] Step [1/22] Loss: 0.431
+2025-08-09 16:19:26,704 - INFO - Training loss: 1.0040077103132552
+2025-08-09 16:19:38,212 - INFO - Train Pearson correlation: 0.536
+2025-08-09 16:19:38,212 - INFO - Train Spearman correlation: 0.739
+2025-08-09 16:19:44,001 - INFO - Validation Pearson correlation: -0.108
+2025-08-09 16:19:44,002 - INFO - Validation Spearman correlation: -0.000
+2025-08-09 16:19:45,176 - INFO - Epoch [57/400] Step [1/22] Loss: 0.446
+2025-08-09 16:20:09,115 - INFO - Training loss: 0.9625965492291884
+2025-08-09 16:20:20,623 - INFO - Train Pearson correlation: 0.409
+2025-08-09 16:20:20,623 - INFO - Train Spearman correlation: 0.538
+2025-08-09 16:20:26,412 - INFO - Validation Pearson correlation: 0.058
+2025-08-09 16:20:26,412 - INFO - Validation Spearman correlation: 0.094
+2025-08-09 16:20:27,589 - INFO - Epoch [58/400] Step [1/22] Loss: 0.832
+2025-08-09 16:20:51,514 - INFO - Training loss: 1.0009974413974718
+2025-08-09 16:21:03,018 - INFO - Train Pearson correlation: 0.412
+2025-08-09 16:21:03,019 - INFO - Train Spearman correlation: 0.628
+2025-08-09 16:21:08,807 - INFO - Validation Pearson correlation: -0.103
+2025-08-09 16:21:08,807 - INFO - Validation Spearman correlation: -0.064
+2025-08-09 16:21:09,984 - INFO - Epoch [59/400] Step [1/22] Loss: 3.353
+2025-08-09 16:21:33,961 - INFO - Training loss: 0.9928393750028177
+2025-08-09 16:21:45,482 - INFO - Train Pearson correlation: 0.428
+2025-08-09 16:21:45,482 - INFO - Train Spearman correlation: 0.681
+2025-08-09 16:21:51,273 - INFO - Validation Pearson correlation: -0.069
+2025-08-09 16:21:51,274 - INFO - Validation Spearman correlation: -0.047
+2025-08-09 16:21:52,447 - INFO - Epoch [60/400] Step [1/22] Loss: 3.919
+2025-08-09 16:22:16,378 - INFO - Training loss: 0.9873884723267772
+2025-08-09 16:22:27,884 - INFO - Train Pearson correlation: 0.452
+2025-08-09 16:22:27,884 - INFO - Train Spearman correlation: 0.801
+2025-08-09 16:22:33,675 - INFO - Validation Pearson correlation: 0.005
+2025-08-09 16:22:33,675 - INFO - Validation Spearman correlation: 0.047
+2025-08-09 16:22:34,849 - INFO - Epoch [61/400] Step [1/22] Loss: 0.405
+2025-08-09 16:22:58,782 - INFO - Training loss: 1.0015840408476917
+2025-08-09 16:23:10,289 - INFO - Train Pearson correlation: 0.544
+2025-08-09 16:23:10,289 - INFO - Train Spearman correlation: 0.788
+2025-08-09 16:23:16,076 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 16:23:16,076 - INFO - Validation Spearman correlation: 0.002
+2025-08-09 16:23:17,254 - INFO - Epoch [62/400] Step [1/22] Loss: 0.555
+2025-08-09 16:23:41,184 - INFO - Training loss: 0.9727850651199167
+2025-08-09 16:23:52,704 - INFO - Train Pearson correlation: 0.546
+2025-08-09 16:23:52,704 - INFO - Train Spearman correlation: 0.804
+2025-08-09 16:23:58,492 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 16:23:58,493 - INFO - Validation Spearman correlation: 0.034
+2025-08-09 16:23:59,672 - INFO - Epoch [63/400] Step [1/22] Loss: 0.209
+2025-08-09 16:24:23,609 - INFO - Training loss: 0.9688257961110636
+2025-08-09 16:24:35,114 - INFO - Train Pearson correlation: 0.487
+2025-08-09 16:24:35,114 - INFO - Train Spearman correlation: 0.828
+2025-08-09 16:24:40,903 - INFO - Validation Pearson correlation: -0.088
+2025-08-09 16:24:40,903 - INFO - Validation Spearman correlation: -0.006
+2025-08-09 16:24:42,079 - INFO - Epoch [64/400] Step [1/22] Loss: 0.146
+2025-08-09 16:25:06,011 - INFO - Training loss: 0.9042304225943305
+2025-08-09 16:25:17,535 - INFO - Train Pearson correlation: 0.571
+2025-08-09 16:25:17,536 - INFO - Train Spearman correlation: 0.828
+2025-08-09 16:25:23,327 - INFO - Validation Pearson correlation: -0.123
+2025-08-09 16:25:23,327 - INFO - Validation Spearman correlation: -0.019
+2025-08-09 16:25:24,502 - INFO - Epoch [65/400] Step [1/22] Loss: 0.477
+2025-08-09 16:25:48,433 - INFO - Training loss: 0.9596208936788819
+2025-08-09 16:25:59,943 - INFO - Train Pearson correlation: 0.444
+2025-08-09 16:25:59,943 - INFO - Train Spearman correlation: 0.779
+2025-08-09 16:26:05,732 - INFO - Validation Pearson correlation: -0.021
+2025-08-09 16:26:05,732 - INFO - Validation Spearman correlation: -0.066
+2025-08-09 16:26:06,907 - INFO - Epoch [66/400] Step [1/22] Loss: 0.384
+2025-08-09 16:26:30,835 - INFO - Training loss: 0.8832540518858216
+2025-08-09 16:26:42,343 - INFO - Train Pearson correlation: 0.672
+2025-08-09 16:26:42,343 - INFO - Train Spearman correlation: 0.785
+2025-08-09 16:26:48,134 - INFO - Validation Pearson correlation: -0.033
+2025-08-09 16:26:48,134 - INFO - Validation Spearman correlation: -0.027
+2025-08-09 16:26:49,310 - INFO - Epoch [67/400] Step [1/22] Loss: 0.157
+2025-08-09 16:27:13,245 - INFO - Training loss: 0.9979135346683589
+2025-08-09 16:27:24,747 - INFO - Train Pearson correlation: 0.645
+2025-08-09 16:27:24,748 - INFO - Train Spearman correlation: 0.806
+2025-08-09 16:27:30,538 - INFO - Validation Pearson correlation: -0.001
+2025-08-09 16:27:30,539 - INFO - Validation Spearman correlation: -0.012
+2025-08-09 16:27:31,716 - INFO - Epoch [68/400] Step [1/22] Loss: 0.339
+2025-08-09 16:27:55,649 - INFO - Training loss: 0.9601743847809054
+2025-08-09 16:28:07,151 - INFO - Train Pearson correlation: 0.551
+2025-08-09 16:28:07,152 - INFO - Train Spearman correlation: 0.789
+2025-08-09 16:28:12,942 - INFO - Validation Pearson correlation: -0.010
+2025-08-09 16:28:12,943 - INFO - Validation Spearman correlation: -0.045
+2025-08-09 16:28:14,118 - INFO - Epoch [69/400] Step [1/22] Loss: 0.206
+2025-08-09 16:28:38,050 - INFO - Training loss: 0.977756957438859
+2025-08-09 16:28:49,558 - INFO - Train Pearson correlation: 0.539
+2025-08-09 16:28:49,558 - INFO - Train Spearman correlation: 0.825
+2025-08-09 16:28:55,344 - INFO - Validation Pearson correlation: -0.004
+2025-08-09 16:28:55,344 - INFO - Validation Spearman correlation: -0.014
+2025-08-09 16:28:56,521 - INFO - Epoch [70/400] Step [1/22] Loss: 0.635
+2025-08-09 16:29:20,457 - INFO - Training loss: 0.9463495395400308
+2025-08-09 16:29:31,964 - INFO - Train Pearson correlation: 0.591
+2025-08-09 16:29:31,964 - INFO - Train Spearman correlation: 0.838
+2025-08-09 16:29:37,756 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 16:29:37,756 - INFO - Validation Spearman correlation: 0.008
+2025-08-09 16:29:38,931 - INFO - Epoch [71/400] Step [1/22] Loss: 3.398
+2025-08-09 16:30:02,867 - INFO - Training loss: 0.8588335331190716
+2025-08-09 16:30:14,374 - INFO - Train Pearson correlation: 0.551
+2025-08-09 16:30:14,374 - INFO - Train Spearman correlation: 0.844
+2025-08-09 16:30:20,165 - INFO - Validation Pearson correlation: -0.086
+2025-08-09 16:30:20,166 - INFO - Validation Spearman correlation: -0.005
+2025-08-09 16:30:21,340 - INFO - Epoch [72/400] Step [1/22] Loss: 1.014
+2025-08-09 16:30:45,282 - INFO - Training loss: 0.8142213523387909
+2025-08-09 16:30:56,791 - INFO - Train Pearson correlation: 0.607
+2025-08-09 16:30:56,791 - INFO - Train Spearman correlation: 0.852
+2025-08-09 16:31:02,577 - INFO - Validation Pearson correlation: 0.017
+2025-08-09 16:31:02,578 - INFO - Validation Spearman correlation: 0.006
+2025-08-09 16:31:03,754 - INFO - Epoch [73/400] Step [1/22] Loss: 0.268
+2025-08-09 16:31:27,687 - INFO - Training loss: 0.771161425858736
+2025-08-09 16:31:39,198 - INFO - Train Pearson correlation: 0.648
+2025-08-09 16:31:39,199 - INFO - Train Spearman correlation: 0.849
+2025-08-09 16:31:44,995 - INFO - Validation Pearson correlation: 0.022
+2025-08-09 16:31:44,995 - INFO - Validation Spearman correlation: -0.040
+2025-08-09 16:31:46,170 - INFO - Epoch [74/400] Step [1/22] Loss: 0.429
+2025-08-09 16:32:10,103 - INFO - Training loss: 0.7671030448241667
+2025-08-09 16:32:21,608 - INFO - Train Pearson correlation: 0.658
+2025-08-09 16:32:21,608 - INFO - Train Spearman correlation: 0.854
+2025-08-09 16:32:27,395 - INFO - Validation Pearson correlation: 0.011
+2025-08-09 16:32:27,395 - INFO - Validation Spearman correlation: 0.008
+2025-08-09 16:32:28,570 - INFO - Epoch [75/400] Step [1/22] Loss: 0.143
+2025-08-09 16:32:52,506 - INFO - Training loss: 1.0101938414683735
+2025-08-09 16:33:04,012 - INFO - Train Pearson correlation: 0.579
+2025-08-09 16:33:04,012 - INFO - Train Spearman correlation: 0.788
+2025-08-09 16:33:09,802 - INFO - Validation Pearson correlation: -0.032
+2025-08-09 16:33:09,803 - INFO - Validation Spearman correlation: -0.005
+2025-08-09 16:33:10,976 - INFO - Epoch [76/400] Step [1/22] Loss: 0.781
+2025-08-09 16:33:34,912 - INFO - Training loss: 0.7754553835839033
+2025-08-09 16:33:46,427 - INFO - Train Pearson correlation: 0.608
+2025-08-09 16:33:46,427 - INFO - Train Spearman correlation: 0.803
+2025-08-09 16:33:52,219 - INFO - Validation Pearson correlation: -0.121
+2025-08-09 16:33:52,219 - INFO - Validation Spearman correlation: -0.020
+2025-08-09 16:33:53,395 - INFO - Epoch [77/400] Step [1/22] Loss: 0.873
+2025-08-09 16:34:17,320 - INFO - Training loss: 0.6579286696558649
+2025-08-09 16:34:28,824 - INFO - Train Pearson correlation: 0.625
+2025-08-09 16:34:28,824 - INFO - Train Spearman correlation: 0.849
+2025-08-09 16:34:34,610 - INFO - Validation Pearson correlation: -0.146
+2025-08-09 16:34:34,610 - INFO - Validation Spearman correlation: -0.032
+2025-08-09 16:34:35,784 - INFO - Epoch [78/400] Step [1/22] Loss: 0.565
+2025-08-09 16:34:59,723 - INFO - Training loss: 0.8578319332816384
+2025-08-09 16:35:11,244 - INFO - Train Pearson correlation: 0.683
+2025-08-09 16:35:11,244 - INFO - Train Spearman correlation: 0.866
+2025-08-09 16:35:17,030 - INFO - Validation Pearson correlation: -0.090
+2025-08-09 16:35:17,030 - INFO - Validation Spearman correlation: -0.062
+2025-08-09 16:35:18,204 - INFO - Epoch [79/400] Step [1/22] Loss: 0.343
+2025-08-09 16:35:42,134 - INFO - Training loss: 0.7493229637091811
+2025-08-09 16:35:53,655 - INFO - Train Pearson correlation: 0.734
+2025-08-09 16:35:53,656 - INFO - Train Spearman correlation: 0.866
+2025-08-09 16:35:59,440 - INFO - Validation Pearson correlation: -0.136
+2025-08-09 16:35:59,440 - INFO - Validation Spearman correlation: 0.025
+2025-08-09 16:36:00,615 - INFO - Epoch [80/400] Step [1/22] Loss: 0.601
+2025-08-09 16:36:24,536 - INFO - Training loss: 0.5088801306079734
+2025-08-09 16:36:36,039 - INFO - Train Pearson correlation: 0.737
+2025-08-09 16:36:36,040 - INFO - Train Spearman correlation: 0.869
+2025-08-09 16:36:41,828 - INFO - Validation Pearson correlation: -0.025
+2025-08-09 16:36:41,828 - INFO - Validation Spearman correlation: -0.017
+2025-08-09 16:36:44,916 - INFO - Epoch [81/400] Step [1/22] Loss: 0.323
+2025-08-09 16:37:08,897 - INFO - Training loss: 0.5316099436445669
+2025-08-09 16:37:20,409 - INFO - Train Pearson correlation: 0.744
+2025-08-09 16:37:20,410 - INFO - Train Spearman correlation: 0.866
+2025-08-09 16:37:26,195 - INFO - Validation Pearson correlation: -0.024
+2025-08-09 16:37:26,195 - INFO - Validation Spearman correlation: -0.091
+2025-08-09 16:37:27,369 - INFO - Epoch [82/400] Step [1/22] Loss: 1.294
+2025-08-09 16:38:06,488 - INFO - Training loss: 0.6233588883822615
+2025-08-09 16:38:17,998 - INFO - Train Pearson correlation: 0.769
+2025-08-09 16:38:17,999 - INFO - Train Spearman correlation: 0.872
+2025-08-09 16:38:23,772 - INFO - Validation Pearson correlation: -0.027
+2025-08-09 16:38:23,773 - INFO - Validation Spearman correlation: -0.075
+2025-08-09 16:38:24,942 - INFO - Epoch [83/400] Step [1/22] Loss: 0.133
+2025-08-09 16:38:49,227 - INFO - Training loss: 0.4621248145333745
+2025-08-09 16:39:00,734 - INFO - Train Pearson correlation: 0.773
+2025-08-09 16:39:00,735 - INFO - Train Spearman correlation: 0.883
+2025-08-09 16:39:06,520 - INFO - Validation Pearson correlation: -0.084
+2025-08-09 16:39:06,520 - INFO - Validation Spearman correlation: -0.084
+2025-08-09 16:39:07,696 - INFO - Epoch [84/400] Step [1/22] Loss: 0.054
+2025-08-09 16:39:31,615 - INFO - Training loss: 0.6386775924739513
+2025-08-09 16:39:46,308 - INFO - Train Pearson correlation: 0.767
+2025-08-09 16:39:46,308 - INFO - Train Spearman correlation: 0.886
+2025-08-09 16:39:52,199 - INFO - Validation Pearson correlation: -0.102
+2025-08-09 16:39:52,200 - INFO - Validation Spearman correlation: -0.078
+2025-08-09 16:39:53,375 - INFO - Epoch [85/400] Step [1/22] Loss: 0.125
+2025-08-09 16:40:17,280 - INFO - Training loss: 0.4936154770072211
+2025-08-09 16:40:28,785 - INFO - Train Pearson correlation: 0.792
+2025-08-09 16:40:28,785 - INFO - Train Spearman correlation: 0.889
+2025-08-09 16:40:34,573 - INFO - Validation Pearson correlation: -0.076
+2025-08-09 16:40:34,574 - INFO - Validation Spearman correlation: -0.013
+2025-08-09 16:40:35,749 - INFO - Epoch [86/400] Step [1/22] Loss: 1.221
+2025-08-09 16:40:59,681 - INFO - Training loss: 0.44844187796115875
+2025-08-09 16:41:11,188 - INFO - Train Pearson correlation: 0.796
+2025-08-09 16:41:11,188 - INFO - Train Spearman correlation: 0.896
+2025-08-09 16:41:16,978 - INFO - Validation Pearson correlation: -0.109
+2025-08-09 16:41:16,978 - INFO - Validation Spearman correlation: 0.014
+2025-08-09 16:41:18,154 - INFO - Epoch [87/400] Step [1/22] Loss: 0.243
+2025-08-09 16:41:42,095 - INFO - Training loss: 0.4104498015208678
+2025-08-09 16:41:53,603 - INFO - Train Pearson correlation: 0.808
+2025-08-09 16:41:53,604 - INFO - Train Spearman correlation: 0.894
+2025-08-09 16:41:59,395 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 16:41:59,395 - INFO - Validation Spearman correlation: -0.013
+2025-08-09 16:42:00,571 - INFO - Epoch [88/400] Step [1/22] Loss: 0.356
+2025-08-09 16:42:24,509 - INFO - Training loss: 0.44998543531718577
+2025-08-09 16:42:36,019 - INFO - Train Pearson correlation: 0.825
+2025-08-09 16:42:36,019 - INFO - Train Spearman correlation: 0.898
+2025-08-09 16:42:41,811 - INFO - Validation Pearson correlation: -0.082
+2025-08-09 16:42:41,811 - INFO - Validation Spearman correlation: -0.018
+2025-08-09 16:42:42,989 - INFO - Epoch [89/400] Step [1/22] Loss: 0.169
+2025-08-09 16:43:06,931 - INFO - Training loss: 0.5056342369114811
+2025-08-09 16:43:18,440 - INFO - Train Pearson correlation: 0.809
+2025-08-09 16:43:18,440 - INFO - Train Spearman correlation: 0.898
+2025-08-09 16:43:24,230 - INFO - Validation Pearson correlation: -0.093
+2025-08-09 16:43:24,231 - INFO - Validation Spearman correlation: -0.012
+2025-08-09 16:43:25,408 - INFO - Epoch [90/400] Step [1/22] Loss: 0.318
+2025-08-09 16:43:49,347 - INFO - Training loss: 0.45957486974922096
+2025-08-09 16:44:00,856 - INFO - Train Pearson correlation: 0.817
+2025-08-09 16:44:00,856 - INFO - Train Spearman correlation: 0.903
+2025-08-09 16:44:06,647 - INFO - Validation Pearson correlation: -0.086
+2025-08-09 16:44:06,647 - INFO - Validation Spearman correlation: 0.008
+2025-08-09 16:44:07,824 - INFO - Epoch [91/400] Step [1/22] Loss: 0.099
+2025-08-09 16:44:31,760 - INFO - Training loss: 0.45149377327073703
+2025-08-09 16:44:43,272 - INFO - Train Pearson correlation: 0.816
+2025-08-09 16:44:43,273 - INFO - Train Spearman correlation: 0.908
+2025-08-09 16:44:49,064 - INFO - Validation Pearson correlation: -0.022
+2025-08-09 16:44:49,065 - INFO - Validation Spearman correlation: 0.013
+2025-08-09 16:44:50,238 - INFO - Epoch [92/400] Step [1/22] Loss: 1.669
+2025-08-09 16:45:14,186 - INFO - Training loss: 0.7814475175162608
+2025-08-09 16:45:25,697 - INFO - Train Pearson correlation: 0.808
+2025-08-09 16:45:25,697 - INFO - Train Spearman correlation: 0.903
+2025-08-09 16:45:31,488 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 16:45:31,488 - INFO - Validation Spearman correlation: -0.034
+2025-08-09 16:45:32,665 - INFO - Epoch [93/400] Step [1/22] Loss: 0.470
+2025-08-09 16:45:56,611 - INFO - Training loss: 0.41634565456347034
+2025-08-09 16:46:08,120 - INFO - Train Pearson correlation: 0.808
+2025-08-09 16:46:08,120 - INFO - Train Spearman correlation: 0.911
+2025-08-09 16:46:13,912 - INFO - Validation Pearson correlation: -0.127
+2025-08-09 16:46:13,913 - INFO - Validation Spearman correlation: 0.003
+2025-08-09 16:46:15,088 - INFO - Epoch [94/400] Step [1/22] Loss: 1.042
+2025-08-09 16:46:39,031 - INFO - Training loss: 0.4165331484241919
+2025-08-09 16:46:50,538 - INFO - Train Pearson correlation: 0.817
+2025-08-09 16:46:50,538 - INFO - Train Spearman correlation: 0.913
+2025-08-09 16:46:56,332 - INFO - Validation Pearson correlation: -0.097
+2025-08-09 16:46:56,332 - INFO - Validation Spearman correlation: 0.013
+2025-08-09 16:46:57,509 - INFO - Epoch [95/400] Step [1/22] Loss: 0.100
+2025-08-09 16:47:21,453 - INFO - Training loss: 0.5199380509386008
+2025-08-09 16:47:32,961 - INFO - Train Pearson correlation: 0.824
+2025-08-09 16:47:32,961 - INFO - Train Spearman correlation: 0.913
+2025-08-09 16:47:38,751 - INFO - Validation Pearson correlation: -0.030
+2025-08-09 16:47:38,751 - INFO - Validation Spearman correlation: -0.011
+2025-08-09 16:47:39,926 - INFO - Epoch [96/400] Step [1/22] Loss: 0.135
+2025-08-09 16:48:03,871 - INFO - Training loss: 0.42814962565898895
+2025-08-09 16:48:15,379 - INFO - Train Pearson correlation: 0.838
+2025-08-09 16:48:15,380 - INFO - Train Spearman correlation: 0.917
+2025-08-09 16:48:21,172 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 16:48:21,173 - INFO - Validation Spearman correlation: 0.007
+2025-08-09 16:48:22,349 - INFO - Epoch [97/400] Step [1/22] Loss: 0.040
+2025-08-09 16:48:46,286 - INFO - Training loss: 0.44418372958898544
+2025-08-09 16:48:57,798 - INFO - Train Pearson correlation: 0.837
+2025-08-09 16:48:57,798 - INFO - Train Spearman correlation: 0.916
+2025-08-09 16:49:03,587 - INFO - Validation Pearson correlation: -0.103
+2025-08-09 16:49:03,587 - INFO - Validation Spearman correlation: 0.028
+2025-08-09 16:49:04,763 - INFO - Epoch [98/400] Step [1/22] Loss: 0.760
+2025-08-09 16:49:28,707 - INFO - Training loss: 0.5371115690266545
+2025-08-09 16:49:40,218 - INFO - Train Pearson correlation: 0.843
+2025-08-09 16:49:40,218 - INFO - Train Spearman correlation: 0.917
+2025-08-09 16:49:46,007 - INFO - Validation Pearson correlation: -0.077
+2025-08-09 16:49:46,007 - INFO - Validation Spearman correlation: 0.017
+2025-08-09 16:49:47,184 - INFO - Epoch [99/400] Step [1/22] Loss: 1.055
+2025-08-09 16:50:11,124 - INFO - Training loss: 0.42498872623863543
+2025-08-09 16:50:22,631 - INFO - Train Pearson correlation: 0.834
+2025-08-09 16:50:22,631 - INFO - Train Spearman correlation: 0.921
+2025-08-09 16:50:28,424 - INFO - Validation Pearson correlation: -0.052
+2025-08-09 16:50:28,424 - INFO - Validation Spearman correlation: 0.022
+2025-08-09 16:50:29,600 - INFO - Epoch [100/400] Step [1/22] Loss: 0.127
+2025-08-09 16:50:54,267 - INFO - Training loss: 0.5928160358559001
+2025-08-09 16:51:05,779 - INFO - Train Pearson correlation: 0.835
+2025-08-09 16:51:05,779 - INFO - Train Spearman correlation: 0.920
+2025-08-09 16:51:11,568 - INFO - Validation Pearson correlation: -0.068
+2025-08-09 16:51:11,568 - INFO - Validation Spearman correlation: -0.026
+2025-08-09 16:51:12,744 - INFO - Epoch [101/400] Step [1/22] Loss: 0.187
+2025-08-09 16:51:36,686 - INFO - Training loss: 0.4184136429632252
+2025-08-09 16:51:48,398 - INFO - Train Pearson correlation: 0.851
+2025-08-09 16:51:48,398 - INFO - Train Spearman correlation: 0.923
+2025-08-09 16:51:54,191 - INFO - Validation Pearson correlation: -0.112
+2025-08-09 16:51:54,191 - INFO - Validation Spearman correlation: -0.031
+2025-08-09 16:51:55,365 - INFO - Epoch [102/400] Step [1/22] Loss: 0.294
+2025-08-09 16:52:19,302 - INFO - Training loss: 0.5050109878859737
+2025-08-09 16:52:30,808 - INFO - Train Pearson correlation: 0.855
+2025-08-09 16:52:30,809 - INFO - Train Spearman correlation: 0.926
+2025-08-09 16:52:36,599 - INFO - Validation Pearson correlation: -0.066
+2025-08-09 16:52:36,599 - INFO - Validation Spearman correlation: -0.009
+2025-08-09 16:52:37,776 - INFO - Epoch [103/400] Step [1/22] Loss: 0.033
+2025-08-09 16:53:01,716 - INFO - Training loss: 0.3503807249732993
+2025-08-09 16:53:13,224 - INFO - Train Pearson correlation: 0.857
+2025-08-09 16:53:13,225 - INFO - Train Spearman correlation: 0.927
+2025-08-09 16:53:19,014 - INFO - Validation Pearson correlation: -0.081
+2025-08-09 16:53:19,014 - INFO - Validation Spearman correlation: 0.041
+2025-08-09 16:53:20,191 - INFO - Epoch [104/400] Step [1/22] Loss: 0.035
+2025-08-09 16:53:44,126 - INFO - Training loss: 0.33865860324691643
+2025-08-09 16:53:55,635 - INFO - Train Pearson correlation: 0.864
+2025-08-09 16:53:55,635 - INFO - Train Spearman correlation: 0.928
+2025-08-09 16:54:01,426 - INFO - Validation Pearson correlation: -0.093
+2025-08-09 16:54:01,427 - INFO - Validation Spearman correlation: 0.043
+2025-08-09 16:54:02,602 - INFO - Epoch [105/400] Step [1/22] Loss: 0.086
+2025-08-09 16:54:26,539 - INFO - Training loss: 0.2955160970714959
+2025-08-09 16:54:38,046 - INFO - Train Pearson correlation: 0.882
+2025-08-09 16:54:38,046 - INFO - Train Spearman correlation: 0.934
+2025-08-09 16:54:44,824 - INFO - Validation Pearson correlation: -0.069
+2025-08-09 16:54:44,825 - INFO - Validation Spearman correlation: 0.010
+2025-08-09 16:54:46,024 - INFO - Epoch [106/400] Step [1/22] Loss: 1.125
+2025-08-09 16:55:09,959 - INFO - Training loss: 0.36057300002060155
+2025-08-09 16:55:21,467 - INFO - Train Pearson correlation: 0.875
+2025-08-09 16:55:21,467 - INFO - Train Spearman correlation: 0.934
+2025-08-09 16:55:27,256 - INFO - Validation Pearson correlation: -0.069
+2025-08-09 16:55:27,256 - INFO - Validation Spearman correlation: -0.009
+2025-08-09 16:55:28,432 - INFO - Epoch [107/400] Step [1/22] Loss: 0.193
+2025-08-09 16:55:52,367 - INFO - Training loss: 0.3181373267011209
+2025-08-09 16:56:03,879 - INFO - Train Pearson correlation: 0.892
+2025-08-09 16:56:03,880 - INFO - Train Spearman correlation: 0.941
+2025-08-09 16:56:09,671 - INFO - Validation Pearson correlation: -0.058
+2025-08-09 16:56:09,672 - INFO - Validation Spearman correlation: 0.012
+2025-08-09 16:56:10,848 - INFO - Epoch [108/400] Step [1/22] Loss: 0.049
+2025-08-09 16:56:34,778 - INFO - Training loss: 0.26134116913784633
+2025-08-09 16:56:48,598 - INFO - Train Pearson correlation: 0.906
+2025-08-09 16:56:48,632 - INFO - Train Spearman correlation: 0.947
+2025-08-09 16:56:54,411 - INFO - Validation Pearson correlation: -0.098
+2025-08-09 16:56:54,411 - INFO - Validation Spearman correlation: -0.018
+2025-08-09 16:56:55,585 - INFO - Epoch [109/400] Step [1/22] Loss: 0.089
+2025-08-09 16:57:19,499 - INFO - Training loss: 0.44712941149588337
+2025-08-09 16:57:30,999 - INFO - Train Pearson correlation: 0.904
+2025-08-09 16:57:30,999 - INFO - Train Spearman correlation: 0.941
+2025-08-09 16:57:36,785 - INFO - Validation Pearson correlation: -0.100
+2025-08-09 16:57:36,786 - INFO - Validation Spearman correlation: -0.033
+2025-08-09 16:57:37,961 - INFO - Epoch [110/400] Step [1/22] Loss: 0.218
+2025-08-09 16:58:03,516 - INFO - Training loss: 0.23465228617318312
+2025-08-09 16:58:15,025 - INFO - Train Pearson correlation: 0.908
+2025-08-09 16:58:15,026 - INFO - Train Spearman correlation: 0.950
+2025-08-09 16:58:20,811 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 16:58:20,811 - INFO - Validation Spearman correlation: -0.032
+2025-08-09 16:58:21,987 - INFO - Epoch [111/400] Step [1/22] Loss: 0.300
+2025-08-09 16:58:46,495 - INFO - Training loss: 0.27965395884927025
+2025-08-09 16:58:57,994 - INFO - Train Pearson correlation: 0.921
+2025-08-09 16:58:57,995 - INFO - Train Spearman correlation: 0.951
+2025-08-09 16:59:03,782 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 16:59:03,783 - INFO - Validation Spearman correlation: -0.043
+2025-08-09 16:59:04,959 - INFO - Epoch [112/400] Step [1/22] Loss: 0.111
+2025-08-09 16:59:28,879 - INFO - Training loss: 0.46764093002473767
+2025-08-09 16:59:40,386 - INFO - Train Pearson correlation: 0.909
+2025-08-09 16:59:40,387 - INFO - Train Spearman correlation: 0.946
+2025-08-09 16:59:46,185 - INFO - Validation Pearson correlation: -0.094
+2025-08-09 16:59:46,185 - INFO - Validation Spearman correlation: -0.046
+2025-08-09 16:59:47,360 - INFO - Epoch [113/400] Step [1/22] Loss: 0.680
+2025-08-09 17:00:11,290 - INFO - Training loss: 0.3254967666315762
+2025-08-09 17:00:22,794 - INFO - Train Pearson correlation: 0.917
+2025-08-09 17:00:22,794 - INFO - Train Spearman correlation: 0.951
+2025-08-09 17:00:28,584 - INFO - Validation Pearson correlation: -0.090
+2025-08-09 17:00:28,585 - INFO - Validation Spearman correlation: -0.024
+2025-08-09 17:00:29,760 - INFO - Epoch [114/400] Step [1/22] Loss: 0.073
+2025-08-09 17:00:53,693 - INFO - Training loss: 0.313304879617962
+2025-08-09 17:01:05,197 - INFO - Train Pearson correlation: 0.896
+2025-08-09 17:01:05,197 - INFO - Train Spearman correlation: 0.952
+2025-08-09 17:01:10,987 - INFO - Validation Pearson correlation: -0.110
+2025-08-09 17:01:10,987 - INFO - Validation Spearman correlation: -0.065
+2025-08-09 17:01:12,162 - INFO - Epoch [115/400] Step [1/22] Loss: 0.234
+2025-08-09 17:01:36,094 - INFO - Training loss: 0.38028079457581043
+2025-08-09 17:01:47,602 - INFO - Train Pearson correlation: 0.919
+2025-08-09 17:01:47,602 - INFO - Train Spearman correlation: 0.953
+2025-08-09 17:01:53,391 - INFO - Validation Pearson correlation: -0.095
+2025-08-09 17:01:53,391 - INFO - Validation Spearman correlation: -0.058
+2025-08-09 17:01:54,568 - INFO - Epoch [116/400] Step [1/22] Loss: 0.690
+2025-08-09 17:02:18,504 - INFO - Training loss: 0.38049911927770486
+2025-08-09 17:02:30,011 - INFO - Train Pearson correlation: 0.913
+2025-08-09 17:02:30,012 - INFO - Train Spearman correlation: 0.954
+2025-08-09 17:02:35,803 - INFO - Validation Pearson correlation: -0.077
+2025-08-09 17:02:35,803 - INFO - Validation Spearman correlation: -0.046
+2025-08-09 17:02:36,979 - INFO - Epoch [117/400] Step [1/22] Loss: 0.117
+2025-08-09 17:03:00,919 - INFO - Training loss: 0.41206125051460485
+2025-08-09 17:03:12,448 - INFO - Train Pearson correlation: 0.915
+2025-08-09 17:03:12,448 - INFO - Train Spearman correlation: 0.952
+2025-08-09 17:03:18,238 - INFO - Validation Pearson correlation: -0.103
+2025-08-09 17:03:18,238 - INFO - Validation Spearman correlation: -0.071
+2025-08-09 17:03:19,413 - INFO - Epoch [118/400] Step [1/22] Loss: 0.113
+2025-08-09 17:03:43,355 - INFO - Training loss: 0.2840268373997374
+2025-08-09 17:03:54,863 - INFO - Train Pearson correlation: 0.918
+2025-08-09 17:03:54,863 - INFO - Train Spearman correlation: 0.959
+2025-08-09 17:04:00,654 - INFO - Validation Pearson correlation: -0.118
+2025-08-09 17:04:00,655 - INFO - Validation Spearman correlation: -0.091
+2025-08-09 17:04:01,831 - INFO - Epoch [119/400] Step [1/22] Loss: 0.174
+2025-08-09 17:04:25,764 - INFO - Training loss: 0.385304747488011
+2025-08-09 17:04:37,268 - INFO - Train Pearson correlation: 0.926
+2025-08-09 17:04:37,268 - INFO - Train Spearman correlation: 0.957
+2025-08-09 17:04:43,058 - INFO - Validation Pearson correlation: -0.118
+2025-08-09 17:04:43,058 - INFO - Validation Spearman correlation: -0.073
+2025-08-09 17:04:44,233 - INFO - Epoch [120/400] Step [1/22] Loss: 0.334
+2025-08-09 17:05:08,172 - INFO - Training loss: 0.478344473649155
+2025-08-09 17:05:19,679 - INFO - Train Pearson correlation: 0.928
+2025-08-09 17:05:19,679 - INFO - Train Spearman correlation: 0.955
+2025-08-09 17:05:25,472 - INFO - Validation Pearson correlation: -0.085
+2025-08-09 17:05:25,472 - INFO - Validation Spearman correlation: -0.041
+2025-08-09 17:05:26,648 - INFO - Epoch [121/400] Step [1/22] Loss: 0.069
+2025-08-09 17:05:50,585 - INFO - Training loss: 0.38271419585428457
+2025-08-09 17:06:02,094 - INFO - Train Pearson correlation: 0.925
+2025-08-09 17:06:02,095 - INFO - Train Spearman correlation: 0.959
+2025-08-09 17:06:07,887 - INFO - Validation Pearson correlation: -0.076
+2025-08-09 17:06:07,887 - INFO - Validation Spearman correlation: -0.046
+2025-08-09 17:06:09,062 - INFO - Epoch [122/400] Step [1/22] Loss: 0.053
+2025-08-09 17:06:33,001 - INFO - Training loss: 0.22382950249382041
+2025-08-09 17:06:44,510 - INFO - Train Pearson correlation: 0.932
+2025-08-09 17:06:44,510 - INFO - Train Spearman correlation: 0.960
+2025-08-09 17:06:50,303 - INFO - Validation Pearson correlation: -0.060
+2025-08-09 17:06:50,303 - INFO - Validation Spearman correlation: -0.042
+2025-08-09 17:06:51,478 - INFO - Epoch [123/400] Step [1/22] Loss: 0.118
+2025-08-09 17:07:15,422 - INFO - Training loss: 0.18579769189554182
+2025-08-09 17:07:26,929 - INFO - Train Pearson correlation: 0.940
+2025-08-09 17:07:26,930 - INFO - Train Spearman correlation: 0.961
+2025-08-09 17:07:32,720 - INFO - Validation Pearson correlation: -0.069
+2025-08-09 17:07:32,720 - INFO - Validation Spearman correlation: -0.030
+2025-08-09 17:07:33,896 - INFO - Epoch [124/400] Step [1/22] Loss: 0.277
+2025-08-09 17:07:57,835 - INFO - Training loss: 0.2018893637525087
+2025-08-09 17:08:09,346 - INFO - Train Pearson correlation: 0.943
+2025-08-09 17:08:09,346 - INFO - Train Spearman correlation: 0.965
+2025-08-09 17:08:15,140 - INFO - Validation Pearson correlation: -0.092
+2025-08-09 17:08:15,141 - INFO - Validation Spearman correlation: -0.060
+2025-08-09 17:08:16,315 - INFO - Epoch [125/400] Step [1/22] Loss: 0.114
+2025-08-09 17:08:40,260 - INFO - Training loss: 0.15874225544658574
+2025-08-09 17:08:51,772 - INFO - Train Pearson correlation: 0.945
+2025-08-09 17:08:51,772 - INFO - Train Spearman correlation: 0.970
+2025-08-09 17:08:57,563 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 17:08:57,563 - INFO - Validation Spearman correlation: -0.101
+2025-08-09 17:08:58,739 - INFO - Epoch [126/400] Step [1/22] Loss: 0.261
+2025-08-09 17:09:22,676 - INFO - Training loss: 0.2122490758880634
+2025-08-09 17:09:34,189 - INFO - Train Pearson correlation: 0.959
+2025-08-09 17:09:34,190 - INFO - Train Spearman correlation: 0.969
+2025-08-09 17:09:39,979 - INFO - Validation Pearson correlation: -0.066
+2025-08-09 17:09:39,980 - INFO - Validation Spearman correlation: -0.075
+2025-08-09 17:09:41,158 - INFO - Epoch [127/400] Step [1/22] Loss: 0.036
+2025-08-09 17:10:06,386 - INFO - Training loss: 0.1936697280034423
+2025-08-09 17:10:17,897 - INFO - Train Pearson correlation: 0.960
+2025-08-09 17:10:17,898 - INFO - Train Spearman correlation: 0.971
+2025-08-09 17:10:23,690 - INFO - Validation Pearson correlation: -0.070
+2025-08-09 17:10:23,690 - INFO - Validation Spearman correlation: -0.090
+2025-08-09 17:10:24,865 - INFO - Epoch [128/400] Step [1/22] Loss: 0.364
+2025-08-09 17:10:48,894 - INFO - Training loss: 0.1437174694146961
+2025-08-09 17:11:00,404 - INFO - Train Pearson correlation: 0.955
+2025-08-09 17:11:00,404 - INFO - Train Spearman correlation: 0.971
+2025-08-09 17:11:06,235 - INFO - Validation Pearson correlation: -0.065
+2025-08-09 17:11:06,241 - INFO - Validation Spearman correlation: -0.078
+2025-08-09 17:11:07,415 - INFO - Epoch [129/400] Step [1/22] Loss: 0.076
+2025-08-09 17:11:31,358 - INFO - Training loss: 0.24709801223467698
+2025-08-09 17:11:42,869 - INFO - Train Pearson correlation: 0.958
+2025-08-09 17:11:42,870 - INFO - Train Spearman correlation: 0.969
+2025-08-09 17:11:48,662 - INFO - Validation Pearson correlation: -0.073
+2025-08-09 17:11:48,662 - INFO - Validation Spearman correlation: -0.038
+2025-08-09 17:11:49,838 - INFO - Epoch [130/400] Step [1/22] Loss: 0.458
+2025-08-09 17:12:13,782 - INFO - Training loss: 0.26311825901608576
+2025-08-09 17:12:25,291 - INFO - Train Pearson correlation: 0.967
+2025-08-09 17:12:25,292 - INFO - Train Spearman correlation: 0.971
+2025-08-09 17:12:31,081 - INFO - Validation Pearson correlation: -0.062
+2025-08-09 17:12:31,081 - INFO - Validation Spearman correlation: -0.063
+2025-08-09 17:12:32,257 - INFO - Epoch [131/400] Step [1/22] Loss: 0.131
+2025-08-09 17:12:56,210 - INFO - Training loss: 0.17229589438912543
+2025-08-09 17:13:07,726 - INFO - Train Pearson correlation: 0.969
+2025-08-09 17:13:07,726 - INFO - Train Spearman correlation: 0.972
+2025-08-09 17:13:13,517 - INFO - Validation Pearson correlation: -0.058
+2025-08-09 17:13:13,518 - INFO - Validation Spearman correlation: -0.074
+2025-08-09 17:13:14,692 - INFO - Epoch [132/400] Step [1/22] Loss: 0.006
+2025-08-09 17:13:38,635 - INFO - Training loss: 0.12331720293414863
+2025-08-09 17:13:50,143 - INFO - Train Pearson correlation: 0.970
+2025-08-09 17:13:50,144 - INFO - Train Spearman correlation: 0.973
+2025-08-09 17:13:55,937 - INFO - Validation Pearson correlation: -0.061
+2025-08-09 17:13:55,937 - INFO - Validation Spearman correlation: -0.106
+2025-08-09 17:13:57,115 - INFO - Epoch [133/400] Step [1/22] Loss: 0.009
+2025-08-09 17:14:21,062 - INFO - Training loss: 0.10054085615345022
+2025-08-09 17:14:32,570 - INFO - Train Pearson correlation: 0.974
+2025-08-09 17:14:32,570 - INFO - Train Spearman correlation: 0.973
+2025-08-09 17:14:38,360 - INFO - Validation Pearson correlation: -0.051
+2025-08-09 17:14:38,360 - INFO - Validation Spearman correlation: -0.131
+2025-08-09 17:14:39,535 - INFO - Epoch [134/400] Step [1/22] Loss: 0.038
+2025-08-09 17:15:03,489 - INFO - Training loss: 0.13974557507952506
+2025-08-09 17:15:15,001 - INFO - Train Pearson correlation: 0.976
+2025-08-09 17:15:15,001 - INFO - Train Spearman correlation: 0.973
+2025-08-09 17:15:20,794 - INFO - Validation Pearson correlation: -0.056
+2025-08-09 17:15:20,795 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 17:15:21,970 - INFO - Epoch [135/400] Step [1/22] Loss: 0.024
+2025-08-09 17:15:45,918 - INFO - Training loss: 0.08595107161355289
+2025-08-09 17:15:57,435 - INFO - Train Pearson correlation: 0.978
+2025-08-09 17:15:57,435 - INFO - Train Spearman correlation: 0.973
+2025-08-09 17:16:03,223 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 17:16:03,224 - INFO - Validation Spearman correlation: -0.082
+2025-08-09 17:16:04,400 - INFO - Epoch [136/400] Step [1/22] Loss: 0.208
+2025-08-09 17:16:28,340 - INFO - Training loss: 0.10141989929516884
+2025-08-09 17:16:39,846 - INFO - Train Pearson correlation: 0.979
+2025-08-09 17:16:39,846 - INFO - Train Spearman correlation: 0.975
+2025-08-09 17:16:45,639 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 17:16:45,639 - INFO - Validation Spearman correlation: -0.128
+2025-08-09 17:16:46,814 - INFO - Epoch [137/400] Step [1/22] Loss: 0.029
+2025-08-09 17:17:10,753 - INFO - Training loss: 0.18891650590706954
+2025-08-09 17:17:22,266 - INFO - Train Pearson correlation: 0.980
+2025-08-09 17:17:22,266 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:17:28,059 - INFO - Validation Pearson correlation: -0.084
+2025-08-09 17:17:28,059 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 17:17:29,235 - INFO - Epoch [138/400] Step [1/22] Loss: 0.100
+2025-08-09 17:17:53,175 - INFO - Training loss: 0.06537060858681798
+2025-08-09 17:18:04,685 - INFO - Train Pearson correlation: 0.979
+2025-08-09 17:18:04,685 - INFO - Train Spearman correlation: 0.975
+2025-08-09 17:18:10,479 - INFO - Validation Pearson correlation: -0.019
+2025-08-09 17:18:10,479 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 17:18:11,655 - INFO - Epoch [139/400] Step [1/22] Loss: 0.120
+2025-08-09 17:18:35,599 - INFO - Training loss: 0.1316077030814168
+2025-08-09 17:18:47,107 - INFO - Train Pearson correlation: 0.978
+2025-08-09 17:18:47,108 - INFO - Train Spearman correlation: 0.976
+2025-08-09 17:18:52,899 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 17:18:52,899 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 17:18:54,076 - INFO - Epoch [140/400] Step [1/22] Loss: 0.121
+2025-08-09 17:19:18,011 - INFO - Training loss: 0.1351304041983729
+2025-08-09 17:19:29,522 - INFO - Train Pearson correlation: 0.976
+2025-08-09 17:19:29,522 - INFO - Train Spearman correlation: 0.980
+2025-08-09 17:19:35,314 - INFO - Validation Pearson correlation: -0.059
+2025-08-09 17:19:35,314 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 17:19:36,490 - INFO - Epoch [141/400] Step [1/22] Loss: 0.043
+2025-08-09 17:20:00,569 - INFO - Training loss: 0.25625483780591324
+2025-08-09 17:20:12,079 - INFO - Train Pearson correlation: 0.971
+2025-08-09 17:20:12,079 - INFO - Train Spearman correlation: 0.978
+2025-08-09 17:20:17,869 - INFO - Validation Pearson correlation: -0.086
+2025-08-09 17:20:17,869 - INFO - Validation Spearman correlation: -0.147
+2025-08-09 17:20:19,045 - INFO - Epoch [142/400] Step [1/22] Loss: 0.336
+2025-08-09 17:20:42,977 - INFO - Training loss: 0.13611225809224628
+2025-08-09 17:20:54,508 - INFO - Train Pearson correlation: 0.983
+2025-08-09 17:20:54,508 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:21:00,296 - INFO - Validation Pearson correlation: -0.075
+2025-08-09 17:21:00,296 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 17:21:01,473 - INFO - Epoch [143/400] Step [1/22] Loss: 0.285
+2025-08-09 17:21:25,400 - INFO - Training loss: 0.08704409640367058
+2025-08-09 17:21:36,903 - INFO - Train Pearson correlation: 0.979
+2025-08-09 17:21:36,903 - INFO - Train Spearman correlation: 0.978
+2025-08-09 17:21:42,690 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 17:21:42,690 - INFO - Validation Spearman correlation: -0.080
+2025-08-09 17:21:43,865 - INFO - Epoch [144/400] Step [1/22] Loss: 0.255
+2025-08-09 17:22:07,797 - INFO - Training loss: 0.07069330908019435
+2025-08-09 17:22:19,303 - INFO - Train Pearson correlation: 0.979
+2025-08-09 17:22:19,304 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:22:25,091 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:22:25,091 - INFO - Validation Spearman correlation: -0.080
+2025-08-09 17:22:26,265 - INFO - Epoch [145/400] Step [1/22] Loss: 0.025
+2025-08-09 17:22:50,192 - INFO - Training loss: 0.12733083683997393
+2025-08-09 17:23:01,696 - INFO - Train Pearson correlation: 0.981
+2025-08-09 17:23:01,697 - INFO - Train Spearman correlation: 0.977
+2025-08-09 17:23:07,486 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 17:23:07,486 - INFO - Validation Spearman correlation: -0.098
+2025-08-09 17:23:08,663 - INFO - Epoch [146/400] Step [1/22] Loss: 0.093
+2025-08-09 17:23:32,590 - INFO - Training loss: 0.11179723298515785
+2025-08-09 17:23:44,091 - INFO - Train Pearson correlation: 0.981
+2025-08-09 17:23:44,092 - INFO - Train Spearman correlation: 0.976
+2025-08-09 17:23:49,882 - INFO - Validation Pearson correlation: -0.047
+2025-08-09 17:23:49,882 - INFO - Validation Spearman correlation: -0.079
+2025-08-09 17:23:51,057 - INFO - Epoch [147/400] Step [1/22] Loss: 0.068
+2025-08-09 17:24:14,992 - INFO - Training loss: 0.06985124098983678
+2025-08-09 17:24:26,498 - INFO - Train Pearson correlation: 0.980
+2025-08-09 17:24:26,498 - INFO - Train Spearman correlation: 0.978
+2025-08-09 17:24:32,285 - INFO - Validation Pearson correlation: -0.007
+2025-08-09 17:24:32,285 - INFO - Validation Spearman correlation: -0.083
+2025-08-09 17:24:33,461 - INFO - Epoch [148/400] Step [1/22] Loss: 0.033
+2025-08-09 17:24:57,423 - INFO - Training loss: 0.09297748282551765
+2025-08-09 17:25:08,961 - INFO - Train Pearson correlation: 0.985
+2025-08-09 17:25:08,961 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:25:14,750 - INFO - Validation Pearson correlation: -0.009
+2025-08-09 17:25:14,751 - INFO - Validation Spearman correlation: -0.077
+2025-08-09 17:25:15,926 - INFO - Epoch [149/400] Step [1/22] Loss: 0.003
+2025-08-09 17:25:39,863 - INFO - Training loss: 0.07156683583955535
+2025-08-09 17:25:51,448 - INFO - Train Pearson correlation: 0.987
+2025-08-09 17:25:51,448 - INFO - Train Spearman correlation: 0.983
+2025-08-09 17:25:57,237 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:25:57,238 - INFO - Validation Spearman correlation: -0.099
+2025-08-09 17:25:58,412 - INFO - Epoch [150/400] Step [1/22] Loss: 0.030
+2025-08-09 17:26:22,351 - INFO - Training loss: 0.10540095293386416
+2025-08-09 17:26:33,862 - INFO - Train Pearson correlation: 0.985
+2025-08-09 17:26:33,862 - INFO - Train Spearman correlation: 0.980
+2025-08-09 17:26:39,654 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 17:26:39,654 - INFO - Validation Spearman correlation: -0.098
+2025-08-09 17:26:40,830 - INFO - Epoch [151/400] Step [1/22] Loss: 0.103
+2025-08-09 17:27:04,774 - INFO - Training loss: 0.10489555803889578
+2025-08-09 17:27:16,283 - INFO - Train Pearson correlation: 0.986
+2025-08-09 17:27:16,284 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:27:22,074 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 17:27:22,074 - INFO - Validation Spearman correlation: -0.095
+2025-08-09 17:27:23,250 - INFO - Epoch [152/400] Step [1/22] Loss: 0.174
+2025-08-09 17:27:47,188 - INFO - Training loss: 0.12849191897972065
+2025-08-09 17:27:58,701 - INFO - Train Pearson correlation: 0.984
+2025-08-09 17:27:58,701 - INFO - Train Spearman correlation: 0.978
+2025-08-09 17:28:04,492 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:28:04,492 - INFO - Validation Spearman correlation: -0.081
+2025-08-09 17:28:05,669 - INFO - Epoch [153/400] Step [1/22] Loss: 0.006
+2025-08-09 17:28:29,611 - INFO - Training loss: 0.0692710404665294
+2025-08-09 17:28:41,120 - INFO - Train Pearson correlation: 0.985
+2025-08-09 17:28:41,120 - INFO - Train Spearman correlation: 0.978
+2025-08-09 17:28:46,924 - INFO - Validation Pearson correlation: -0.029
+2025-08-09 17:28:46,924 - INFO - Validation Spearman correlation: -0.084
+2025-08-09 17:28:48,103 - INFO - Epoch [154/400] Step [1/22] Loss: 0.105
+2025-08-09 17:29:12,039 - INFO - Training loss: 0.08947503672574054
+2025-08-09 17:29:23,544 - INFO - Train Pearson correlation: 0.984
+2025-08-09 17:29:23,544 - INFO - Train Spearman correlation: 0.980
+2025-08-09 17:29:29,333 - INFO - Validation Pearson correlation: -0.013
+2025-08-09 17:29:29,333 - INFO - Validation Spearman correlation: -0.091
+2025-08-09 17:29:30,507 - INFO - Epoch [155/400] Step [1/22] Loss: 0.054
+2025-08-09 17:29:54,458 - INFO - Training loss: 0.08056414146399633
+2025-08-09 17:30:05,968 - INFO - Train Pearson correlation: 0.987
+2025-08-09 17:30:05,968 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:30:11,758 - INFO - Validation Pearson correlation: -0.022
+2025-08-09 17:30:11,758 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 17:30:12,935 - INFO - Epoch [156/400] Step [1/22] Loss: 0.052
+2025-08-09 17:30:36,875 - INFO - Training loss: 0.17471476778684353
+2025-08-09 17:30:48,390 - INFO - Train Pearson correlation: 0.984
+2025-08-09 17:30:48,390 - INFO - Train Spearman correlation: 0.979
+2025-08-09 17:30:54,184 - INFO - Validation Pearson correlation: -0.030
+2025-08-09 17:30:54,184 - INFO - Validation Spearman correlation: -0.081
+2025-08-09 17:30:55,360 - INFO - Epoch [157/400] Step [1/22] Loss: 0.699
+2025-08-09 17:31:19,302 - INFO - Training loss: 0.10932260521010241
+2025-08-09 17:31:30,815 - INFO - Train Pearson correlation: 0.987
+2025-08-09 17:31:30,815 - INFO - Train Spearman correlation: 0.982
+2025-08-09 17:31:36,607 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 17:31:36,607 - INFO - Validation Spearman correlation: -0.100
+2025-08-09 17:31:37,784 - INFO - Epoch [158/400] Step [1/22] Loss: 0.195
+2025-08-09 17:32:01,743 - INFO - Training loss: 0.08085886971093714
+2025-08-09 17:32:13,256 - INFO - Train Pearson correlation: 0.986
+2025-08-09 17:32:13,256 - INFO - Train Spearman correlation: 0.981
+2025-08-09 17:32:19,049 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:32:19,050 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 17:32:20,226 - INFO - Epoch [159/400] Step [1/22] Loss: 0.054
+2025-08-09 17:32:44,173 - INFO - Training loss: 0.0748847241259434
+2025-08-09 17:32:55,684 - INFO - Train Pearson correlation: 0.988
+2025-08-09 17:32:55,684 - INFO - Train Spearman correlation: 0.982
+2025-08-09 17:33:01,478 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 17:33:01,478 - INFO - Validation Spearman correlation: -0.093
+2025-08-09 17:33:02,655 - INFO - Epoch [160/400] Step [1/22] Loss: 0.080
+2025-08-09 17:33:26,603 - INFO - Training loss: 0.06211152283305472
+2025-08-09 17:33:38,116 - INFO - Train Pearson correlation: 0.989
+2025-08-09 17:33:38,116 - INFO - Train Spearman correlation: 0.981
+2025-08-09 17:33:43,908 - INFO - Validation Pearson correlation: -0.022
+2025-08-09 17:33:43,908 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 17:33:45,084 - INFO - Epoch [161/400] Step [1/22] Loss: 0.170
+2025-08-09 17:34:09,027 - INFO - Training loss: 0.06894995357883586
+2025-08-09 17:34:20,538 - INFO - Train Pearson correlation: 0.987
+2025-08-09 17:34:20,539 - INFO - Train Spearman correlation: 0.983
+2025-08-09 17:34:26,330 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 17:34:26,331 - INFO - Validation Spearman correlation: -0.143
+2025-08-09 17:34:27,507 - INFO - Epoch [162/400] Step [1/22] Loss: 0.104
+2025-08-09 17:34:51,454 - INFO - Training loss: 0.06238197099248117
+2025-08-09 17:35:02,962 - INFO - Train Pearson correlation: 0.991
+2025-08-09 17:35:02,962 - INFO - Train Spearman correlation: 0.983
+2025-08-09 17:35:08,754 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 17:35:08,754 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 17:35:09,929 - INFO - Epoch [163/400] Step [1/22] Loss: 0.037
+2025-08-09 17:35:33,879 - INFO - Training loss: 0.06448875562372533
+2025-08-09 17:35:45,390 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:35:45,390 - INFO - Train Spearman correlation: 0.984
+2025-08-09 17:35:51,182 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 17:35:51,182 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 17:35:52,359 - INFO - Epoch [164/400] Step [1/22] Loss: 0.017
+2025-08-09 17:36:16,309 - INFO - Training loss: 0.06988475988195701
+2025-08-09 17:36:27,822 - INFO - Train Pearson correlation: 0.991
+2025-08-09 17:36:27,822 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:36:33,615 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 17:36:33,615 - INFO - Validation Spearman correlation: -0.134
+2025-08-09 17:36:34,789 - INFO - Epoch [165/400] Step [1/22] Loss: 0.193
+2025-08-09 17:36:58,728 - INFO - Training loss: 0.13704248814081604
+2025-08-09 17:37:10,239 - INFO - Train Pearson correlation: 0.991
+2025-08-09 17:37:10,239 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:37:16,031 - INFO - Validation Pearson correlation: -0.051
+2025-08-09 17:37:16,031 - INFO - Validation Spearman correlation: -0.146
+2025-08-09 17:37:17,206 - INFO - Epoch [166/400] Step [1/22] Loss: 0.018
+2025-08-09 17:37:41,149 - INFO - Training loss: 0.11337217189032923
+2025-08-09 17:37:52,675 - INFO - Train Pearson correlation: 0.988
+2025-08-09 17:37:52,675 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:37:58,471 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 17:37:58,471 - INFO - Validation Spearman correlation: -0.145
+2025-08-09 17:37:59,647 - INFO - Epoch [167/400] Step [1/22] Loss: 0.100
+2025-08-09 17:38:23,595 - INFO - Training loss: 0.061388261849060655
+2025-08-09 17:38:35,106 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:38:35,106 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:38:40,898 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:38:40,898 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 17:38:42,075 - INFO - Epoch [168/400] Step [1/22] Loss: 0.014
+2025-08-09 17:39:06,015 - INFO - Training loss: 0.08367210431871089
+2025-08-09 17:39:17,534 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:39:17,534 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:39:23,324 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 17:39:23,324 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 17:39:24,500 - INFO - Epoch [169/400] Step [1/22] Loss: 0.006
+2025-08-09 17:39:48,443 - INFO - Training loss: 0.04821876893666657
+2025-08-09 17:39:59,963 - INFO - Train Pearson correlation: 0.983
+2025-08-09 17:39:59,963 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:40:05,754 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 17:40:05,754 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 17:40:06,930 - INFO - Epoch [170/400] Step [1/22] Loss: 0.103
+2025-08-09 17:40:30,874 - INFO - Training loss: 0.07786980190907013
+2025-08-09 17:40:42,383 - INFO - Train Pearson correlation: 0.989
+2025-08-09 17:40:42,383 - INFO - Train Spearman correlation: 0.985
+2025-08-09 17:40:49,681 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 17:40:49,696 - INFO - Validation Spearman correlation: -0.100
+2025-08-09 17:40:51,061 - INFO - Epoch [171/400] Step [1/22] Loss: 0.046
+2025-08-09 17:41:15,014 - INFO - Training loss: 0.08771668383004991
+2025-08-09 17:41:26,519 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:41:26,520 - INFO - Train Spearman correlation: 0.986
+2025-08-09 17:41:32,309 - INFO - Validation Pearson correlation: -0.065
+2025-08-09 17:41:32,310 - INFO - Validation Spearman correlation: -0.106
+2025-08-09 17:41:33,485 - INFO - Epoch [172/400] Step [1/22] Loss: 0.153
+2025-08-09 17:42:07,894 - INFO - Training loss: 0.08493840660032054
+2025-08-09 17:42:19,486 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:42:19,486 - INFO - Train Spearman correlation: 0.987
+2025-08-09 17:42:25,264 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 17:42:25,264 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 17:42:26,437 - INFO - Epoch [173/400] Step [1/22] Loss: 0.021
+2025-08-09 17:42:50,880 - INFO - Training loss: 0.06972542773424224
+2025-08-09 17:43:02,383 - INFO - Train Pearson correlation: 0.986
+2025-08-09 17:43:02,383 - INFO - Train Spearman correlation: 0.986
+2025-08-09 17:43:08,168 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 17:43:08,168 - INFO - Validation Spearman correlation: -0.088
+2025-08-09 17:43:09,342 - INFO - Epoch [174/400] Step [1/22] Loss: 0.090
+2025-08-09 17:43:33,271 - INFO - Training loss: 0.05023804281584241
+2025-08-09 17:43:46,799 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:43:46,825 - INFO - Train Spearman correlation: 0.988
+2025-08-09 17:43:52,609 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 17:43:52,610 - INFO - Validation Spearman correlation: -0.096
+2025-08-09 17:43:53,800 - INFO - Epoch [175/400] Step [1/22] Loss: 0.024
+2025-08-09 17:44:17,741 - INFO - Training loss: 0.03705637797776779
+2025-08-09 17:44:29,246 - INFO - Train Pearson correlation: 0.991
+2025-08-09 17:44:29,247 - INFO - Train Spearman correlation: 0.988
+2025-08-09 17:44:35,040 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 17:44:35,041 - INFO - Validation Spearman correlation: -0.150
+2025-08-09 17:44:36,215 - INFO - Epoch [176/400] Step [1/22] Loss: 0.019
+2025-08-09 17:45:00,150 - INFO - Training loss: 0.06053780324079774
+2025-08-09 17:45:11,651 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:45:11,651 - INFO - Train Spearman correlation: 0.989
+2025-08-09 17:45:17,442 - INFO - Validation Pearson correlation: -0.008
+2025-08-09 17:45:17,442 - INFO - Validation Spearman correlation: -0.092
+2025-08-09 17:45:18,618 - INFO - Epoch [177/400] Step [1/22] Loss: 0.162
+2025-08-09 17:45:42,548 - INFO - Training loss: 0.07565714571286332
+2025-08-09 17:45:54,052 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:45:54,052 - INFO - Train Spearman correlation: 0.990
+2025-08-09 17:45:59,840 - INFO - Validation Pearson correlation: -0.024
+2025-08-09 17:45:59,840 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 17:46:01,016 - INFO - Epoch [178/400] Step [1/22] Loss: 0.116
+2025-08-09 17:46:24,950 - INFO - Training loss: 0.04472187081013213
+2025-08-09 17:46:36,456 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:46:36,456 - INFO - Train Spearman correlation: 0.989
+2025-08-09 17:46:42,244 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 17:46:42,245 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 17:46:43,421 - INFO - Epoch [179/400] Step [1/22] Loss: 0.014
+2025-08-09 17:47:10,280 - INFO - Training loss: 0.08144406064159491
+2025-08-09 17:47:21,790 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:47:21,791 - INFO - Train Spearman correlation: 0.989
+2025-08-09 17:47:27,574 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 17:47:27,574 - INFO - Validation Spearman correlation: -0.106
+2025-08-09 17:47:28,750 - INFO - Epoch [180/400] Step [1/22] Loss: 0.054
+2025-08-09 17:47:52,940 - INFO - Training loss: 0.09683292376046831
+2025-08-09 17:48:04,448 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:48:04,448 - INFO - Train Spearman correlation: 0.990
+2025-08-09 17:48:10,238 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 17:48:10,239 - INFO - Validation Spearman correlation: -0.166
+2025-08-09 17:48:11,412 - INFO - Epoch [181/400] Step [1/22] Loss: 0.040
+2025-08-09 17:48:35,336 - INFO - Training loss: 0.04871888306330551
+2025-08-09 17:48:48,776 - INFO - Train Pearson correlation: 0.990
+2025-08-09 17:48:48,793 - INFO - Train Spearman correlation: 0.990
+2025-08-09 17:48:54,610 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:48:54,610 - INFO - Validation Spearman correlation: -0.128
+2025-08-09 17:48:55,784 - INFO - Epoch [182/400] Step [1/22] Loss: 0.079
+2025-08-09 17:49:19,703 - INFO - Training loss: 0.06368261670947752
+2025-08-09 17:49:31,207 - INFO - Train Pearson correlation: 0.994
+2025-08-09 17:49:31,207 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:49:36,996 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 17:49:36,996 - INFO - Validation Spearman correlation: -0.134
+2025-08-09 17:49:38,170 - INFO - Epoch [183/400] Step [1/22] Loss: 0.006
+2025-08-09 17:50:06,301 - INFO - Training loss: 0.05607383526777002
+2025-08-09 17:50:17,815 - INFO - Train Pearson correlation: 0.994
+2025-08-09 17:50:17,815 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:50:23,597 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 17:50:23,597 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 17:50:24,771 - INFO - Epoch [184/400] Step [1/22] Loss: 0.010
+2025-08-09 17:50:49,168 - INFO - Training loss: 0.03598457331430505
+2025-08-09 17:51:00,677 - INFO - Train Pearson correlation: 0.993
+2025-08-09 17:51:00,678 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:51:06,467 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:51:06,467 - INFO - Validation Spearman correlation: -0.131
+2025-08-09 17:51:07,643 - INFO - Epoch [185/400] Step [1/22] Loss: 0.058
+2025-08-09 17:51:31,581 - INFO - Training loss: 0.06381095818836581
+2025-08-09 17:51:43,087 - INFO - Train Pearson correlation: 0.995
+2025-08-09 17:51:43,087 - INFO - Train Spearman correlation: 0.993
+2025-08-09 17:51:48,888 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 17:51:48,889 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 17:51:50,065 - INFO - Epoch [186/400] Step [1/22] Loss: 0.015
+2025-08-09 17:52:14,000 - INFO - Training loss: 0.03513875071340325
+2025-08-09 17:52:25,508 - INFO - Train Pearson correlation: 0.996
+2025-08-09 17:52:25,509 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:52:31,298 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 17:52:31,298 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 17:52:32,473 - INFO - Epoch [187/400] Step [1/22] Loss: 0.057
+2025-08-09 17:52:56,506 - INFO - Training loss: 0.04848059281622144
+2025-08-09 17:53:08,032 - INFO - Train Pearson correlation: 0.994
+2025-08-09 17:53:08,032 - INFO - Train Spearman correlation: 0.993
+2025-08-09 17:53:13,824 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 17:53:13,824 - INFO - Validation Spearman correlation: -0.151
+2025-08-09 17:53:15,000 - INFO - Epoch [188/400] Step [1/22] Loss: 0.001
+2025-08-09 17:53:38,940 - INFO - Training loss: 0.11477032000071961
+2025-08-09 17:53:50,449 - INFO - Train Pearson correlation: 0.993
+2025-08-09 17:53:50,450 - INFO - Train Spearman correlation: 0.993
+2025-08-09 17:53:56,238 - INFO - Validation Pearson correlation: -0.055
+2025-08-09 17:53:56,238 - INFO - Validation Spearman correlation: -0.138
+2025-08-09 17:53:57,412 - INFO - Epoch [189/400] Step [1/22] Loss: 0.168
+2025-08-09 17:54:21,350 - INFO - Training loss: 0.1729042570699345
+2025-08-09 17:54:32,858 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:54:32,859 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:54:38,648 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 17:54:38,649 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 17:54:39,824 - INFO - Epoch [190/400] Step [1/22] Loss: 0.175
+2025-08-09 17:55:03,761 - INFO - Training loss: 0.1781720372170887
+2025-08-09 17:55:15,271 - INFO - Train Pearson correlation: 0.994
+2025-08-09 17:55:15,271 - INFO - Train Spearman correlation: 0.991
+2025-08-09 17:55:21,064 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 17:55:21,064 - INFO - Validation Spearman correlation: -0.126
+2025-08-09 17:55:22,242 - INFO - Epoch [191/400] Step [1/22] Loss: 0.105
+2025-08-09 17:55:47,575 - INFO - Training loss: 0.06014382479373704
+2025-08-09 17:55:59,082 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:55:59,082 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:56:04,871 - INFO - Validation Pearson correlation: -0.058
+2025-08-09 17:56:04,871 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 17:56:06,047 - INFO - Epoch [192/400] Step [1/22] Loss: 0.107
+2025-08-09 17:56:29,978 - INFO - Training loss: 0.11482824910093438
+2025-08-09 17:56:41,487 - INFO - Train Pearson correlation: 0.992
+2025-08-09 17:56:41,487 - INFO - Train Spearman correlation: 0.991
+2025-08-09 17:56:47,276 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 17:56:47,276 - INFO - Validation Spearman correlation: -0.099
+2025-08-09 17:56:48,452 - INFO - Epoch [193/400] Step [1/22] Loss: 0.159
+2025-08-09 17:57:12,391 - INFO - Training loss: 0.05902667119252411
+2025-08-09 17:57:23,901 - INFO - Train Pearson correlation: 0.993
+2025-08-09 17:57:23,902 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:57:29,695 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 17:57:29,695 - INFO - Validation Spearman correlation: -0.141
+2025-08-09 17:57:30,870 - INFO - Epoch [194/400] Step [1/22] Loss: 0.017
+2025-08-09 17:57:54,812 - INFO - Training loss: 0.07241641244300726
+2025-08-09 17:58:06,320 - INFO - Train Pearson correlation: 0.993
+2025-08-09 17:58:06,320 - INFO - Train Spearman correlation: 0.993
+2025-08-09 17:58:12,111 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 17:58:12,111 - INFO - Validation Spearman correlation: -0.144
+2025-08-09 17:58:13,287 - INFO - Epoch [195/400] Step [1/22] Loss: 0.037
+2025-08-09 17:58:37,236 - INFO - Training loss: 0.023182545037178152
+2025-08-09 17:58:48,747 - INFO - Train Pearson correlation: 0.994
+2025-08-09 17:58:48,748 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:58:54,539 - INFO - Validation Pearson correlation: -0.021
+2025-08-09 17:58:54,539 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 17:58:55,716 - INFO - Epoch [196/400] Step [1/22] Loss: 0.004
+2025-08-09 17:59:19,654 - INFO - Training loss: 0.05101459781342948
+2025-08-09 17:59:31,167 - INFO - Train Pearson correlation: 0.995
+2025-08-09 17:59:31,167 - INFO - Train Spearman correlation: 0.992
+2025-08-09 17:59:36,958 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 17:59:36,958 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 17:59:38,135 - INFO - Epoch [197/400] Step [1/22] Loss: 0.019
+2025-08-09 18:00:02,075 - INFO - Training loss: 0.045486590041863645
+2025-08-09 18:00:13,584 - INFO - Train Pearson correlation: 0.992
+2025-08-09 18:00:13,585 - INFO - Train Spearman correlation: 0.993
+2025-08-09 18:00:19,376 - INFO - Validation Pearson correlation: -0.056
+2025-08-09 18:00:19,376 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 18:00:20,551 - INFO - Epoch [198/400] Step [1/22] Loss: 0.042
+2025-08-09 18:00:44,497 - INFO - Training loss: 0.046863220843740484
+2025-08-09 18:00:56,006 - INFO - Train Pearson correlation: 0.994
+2025-08-09 18:00:56,006 - INFO - Train Spearman correlation: 0.994
+2025-08-09 18:01:01,799 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 18:01:01,799 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 18:01:02,974 - INFO - Epoch [199/400] Step [1/22] Loss: 0.020
+2025-08-09 18:01:26,914 - INFO - Training loss: 0.02677160788549703
+2025-08-09 18:01:38,427 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:01:38,428 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:01:44,219 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 18:01:44,220 - INFO - Validation Spearman correlation: -0.132
+2025-08-09 18:01:45,396 - INFO - Epoch [200/400] Step [1/22] Loss: 0.042
+2025-08-09 18:02:09,343 - INFO - Training loss: 0.03839696737387302
+2025-08-09 18:02:20,857 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:02:20,858 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:02:26,651 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 18:02:26,651 - INFO - Validation Spearman correlation: -0.141
+2025-08-09 18:02:27,826 - INFO - Epoch [201/400] Step [1/22] Loss: 0.039
+2025-08-09 18:02:51,773 - INFO - Training loss: 0.03204087373557162
+2025-08-09 18:03:03,283 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:03:03,284 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:03:09,076 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 18:03:09,076 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 18:03:10,253 - INFO - Epoch [202/400] Step [1/22] Loss: 0.057
+2025-08-09 18:03:34,196 - INFO - Training loss: 0.07229917754673144
+2025-08-09 18:03:45,708 - INFO - Train Pearson correlation: 0.994
+2025-08-09 18:03:45,708 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:03:51,498 - INFO - Validation Pearson correlation: -0.064
+2025-08-09 18:03:51,498 - INFO - Validation Spearman correlation: -0.135
+2025-08-09 18:03:52,674 - INFO - Epoch [203/400] Step [1/22] Loss: 0.027
+2025-08-09 18:04:16,611 - INFO - Training loss: 0.0241600457705896
+2025-08-09 18:04:28,122 - INFO - Train Pearson correlation: 0.995
+2025-08-09 18:04:28,122 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:04:33,915 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 18:04:33,915 - INFO - Validation Spearman correlation: -0.128
+2025-08-09 18:04:35,090 - INFO - Epoch [204/400] Step [1/22] Loss: 0.007
+2025-08-09 18:04:59,034 - INFO - Training loss: 0.04191849609328942
+2025-08-09 18:05:10,543 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:05:10,544 - INFO - Train Spearman correlation: 0.994
+2025-08-09 18:05:16,336 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 18:05:16,336 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 18:05:17,513 - INFO - Epoch [205/400] Step [1/22] Loss: 0.040
+2025-08-09 18:05:41,462 - INFO - Training loss: 0.03413045851894739
+2025-08-09 18:05:52,974 - INFO - Train Pearson correlation: 0.994
+2025-08-09 18:05:52,975 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:05:58,767 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 18:05:58,767 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 18:05:59,943 - INFO - Epoch [206/400] Step [1/22] Loss: 0.058
+2025-08-09 18:06:23,884 - INFO - Training loss: 0.054654393683780327
+2025-08-09 18:06:35,393 - INFO - Train Pearson correlation: 0.995
+2025-08-09 18:06:35,393 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:06:41,185 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 18:06:41,185 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 18:06:42,361 - INFO - Epoch [207/400] Step [1/22] Loss: 0.023
+2025-08-09 18:07:06,308 - INFO - Training loss: 0.04126441963440315
+2025-08-09 18:07:17,819 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:07:17,820 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:07:23,613 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 18:07:23,614 - INFO - Validation Spearman correlation: -0.137
+2025-08-09 18:07:24,789 - INFO - Epoch [208/400] Step [1/22] Loss: 0.011
+2025-08-09 18:07:48,775 - INFO - Training loss: 0.026892234867608004
+2025-08-09 18:08:00,284 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:08:00,284 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:08:06,075 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 18:08:06,075 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:08:07,251 - INFO - Epoch [209/400] Step [1/22] Loss: 0.011
+2025-08-09 18:08:31,198 - INFO - Training loss: 0.08143289105712691
+2025-08-09 18:08:42,706 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:08:42,706 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:08:48,497 - INFO - Validation Pearson correlation: -0.024
+2025-08-09 18:08:48,498 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:08:49,675 - INFO - Epoch [210/400] Step [1/22] Loss: 0.007
+2025-08-09 18:09:13,619 - INFO - Training loss: 0.048225009475242005
+2025-08-09 18:09:25,129 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:09:25,130 - INFO - Train Spearman correlation: 0.995
+2025-08-09 18:09:30,919 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 18:09:30,919 - INFO - Validation Spearman correlation: -0.138
+2025-08-09 18:09:32,093 - INFO - Epoch [211/400] Step [1/22] Loss: 0.015
+2025-08-09 18:09:56,036 - INFO - Training loss: 0.04268164237410846
+2025-08-09 18:10:07,542 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:10:07,542 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:10:13,333 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 18:10:13,334 - INFO - Validation Spearman correlation: -0.139
+2025-08-09 18:10:14,509 - INFO - Epoch [212/400] Step [1/22] Loss: 0.026
+2025-08-09 18:10:38,443 - INFO - Training loss: 0.0224094010931863
+2025-08-09 18:10:49,950 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:10:49,950 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:10:55,742 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 18:10:55,742 - INFO - Validation Spearman correlation: -0.132
+2025-08-09 18:10:56,919 - INFO - Epoch [213/400] Step [1/22] Loss: 0.025
+2025-08-09 18:11:20,858 - INFO - Training loss: 0.024029268047095022
+2025-08-09 18:11:32,362 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:11:32,362 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:11:38,153 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 18:11:38,154 - INFO - Validation Spearman correlation: -0.148
+2025-08-09 18:11:39,328 - INFO - Epoch [214/400] Step [1/22] Loss: 0.084
+2025-08-09 18:12:03,264 - INFO - Training loss: 0.03531878479671749
+2025-08-09 18:12:14,770 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:12:14,770 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:12:20,558 - INFO - Validation Pearson correlation: -0.056
+2025-08-09 18:12:20,558 - INFO - Validation Spearman correlation: -0.146
+2025-08-09 18:12:21,734 - INFO - Epoch [215/400] Step [1/22] Loss: 0.015
+2025-08-09 18:12:45,666 - INFO - Training loss: 0.03925050841644406
+2025-08-09 18:12:57,171 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:12:57,171 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:13:02,960 - INFO - Validation Pearson correlation: -0.069
+2025-08-09 18:13:02,960 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 18:13:04,136 - INFO - Epoch [216/400] Step [1/22] Loss: 0.004
+2025-08-09 18:13:28,068 - INFO - Training loss: 0.02233182005478408
+2025-08-09 18:13:39,572 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:13:39,572 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:13:45,363 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 18:13:45,363 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 18:13:46,537 - INFO - Epoch [217/400] Step [1/22] Loss: 0.013
+2025-08-09 18:14:10,466 - INFO - Training loss: 0.03709202261895619
+2025-08-09 18:14:21,974 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:14:21,974 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:14:27,763 - INFO - Validation Pearson correlation: -0.055
+2025-08-09 18:14:27,763 - INFO - Validation Spearman correlation: -0.133
+2025-08-09 18:14:28,937 - INFO - Epoch [218/400] Step [1/22] Loss: 0.003
+2025-08-09 18:14:52,878 - INFO - Training loss: 0.022681311013663864
+2025-08-09 18:15:04,386 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:15:04,386 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:15:10,175 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 18:15:10,175 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 18:15:11,350 - INFO - Epoch [219/400] Step [1/22] Loss: 0.042
+2025-08-09 18:15:35,287 - INFO - Training loss: 0.08217533356086774
+2025-08-09 18:15:46,799 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:15:46,799 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:15:52,590 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 18:15:52,591 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 18:15:53,772 - INFO - Epoch [220/400] Step [1/22] Loss: 0.096
+2025-08-09 18:16:17,710 - INFO - Training loss: 0.06400068144615613
+2025-08-09 18:16:29,216 - INFO - Train Pearson correlation: 0.995
+2025-08-09 18:16:29,216 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:16:35,004 - INFO - Validation Pearson correlation: -0.055
+2025-08-09 18:16:35,005 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 18:16:36,182 - INFO - Epoch [221/400] Step [1/22] Loss: 0.031
+2025-08-09 18:17:00,119 - INFO - Training loss: 0.04130965276536616
+2025-08-09 18:17:11,627 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:17:11,627 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:17:17,417 - INFO - Validation Pearson correlation: -0.052
+2025-08-09 18:17:17,417 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:17:18,592 - INFO - Epoch [222/400] Step [1/22] Loss: 0.020
+2025-08-09 18:17:42,534 - INFO - Training loss: 0.02393025695346296
+2025-08-09 18:17:54,071 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:17:54,071 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:17:59,863 - INFO - Validation Pearson correlation: -0.062
+2025-08-09 18:17:59,864 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 18:18:01,043 - INFO - Epoch [223/400] Step [1/22] Loss: 0.006
+2025-08-09 18:18:24,983 - INFO - Training loss: 0.02540620923338627
+2025-08-09 18:18:36,489 - INFO - Train Pearson correlation: 0.995
+2025-08-09 18:18:36,489 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:18:42,279 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 18:18:42,279 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 18:18:43,456 - INFO - Epoch [224/400] Step [1/22] Loss: 0.020
+2025-08-09 18:19:07,400 - INFO - Training loss: 0.025311993106945672
+2025-08-09 18:19:18,910 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:19:18,911 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:19:24,702 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 18:19:24,702 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 18:19:25,880 - INFO - Epoch [225/400] Step [1/22] Loss: 0.020
+2025-08-09 18:19:49,824 - INFO - Training loss: 0.029577516834251583
+2025-08-09 18:20:01,334 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:20:01,334 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:20:07,125 - INFO - Validation Pearson correlation: -0.056
+2025-08-09 18:20:07,125 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 18:20:08,303 - INFO - Epoch [226/400] Step [1/22] Loss: 0.020
+2025-08-09 18:20:32,244 - INFO - Training loss: 0.028445507992397655
+2025-08-09 18:20:43,752 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:20:43,752 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:20:49,547 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 18:20:49,548 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 18:20:50,724 - INFO - Epoch [227/400] Step [1/22] Loss: 0.084
+2025-08-09 18:21:14,661 - INFO - Training loss: 0.03433226362738589
+2025-08-09 18:21:26,170 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:21:26,171 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:21:31,962 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 18:21:31,962 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 18:21:33,139 - INFO - Epoch [228/400] Step [1/22] Loss: 0.020
+2025-08-09 18:21:57,082 - INFO - Training loss: 0.025353913089599122
+2025-08-09 18:22:08,588 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:22:08,589 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:22:14,377 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 18:22:14,377 - INFO - Validation Spearman correlation: -0.140
+2025-08-09 18:22:15,554 - INFO - Epoch [229/400] Step [1/22] Loss: 0.034
+2025-08-09 18:22:39,489 - INFO - Training loss: 0.04469113191589713
+2025-08-09 18:22:50,998 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:22:50,999 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:22:56,788 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 18:22:56,789 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 18:22:57,966 - INFO - Epoch [230/400] Step [1/22] Loss: 0.033
+2025-08-09 18:23:21,905 - INFO - Training loss: 0.01698972974819216
+2025-08-09 18:23:33,418 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:23:33,419 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:23:39,210 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 18:23:39,210 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 18:23:40,386 - INFO - Epoch [231/400] Step [1/22] Loss: 0.006
+2025-08-09 18:24:04,326 - INFO - Training loss: 0.02378692003813657
+2025-08-09 18:24:15,835 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:24:15,835 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:24:21,626 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 18:24:21,626 - INFO - Validation Spearman correlation: -0.152
+2025-08-09 18:24:22,801 - INFO - Epoch [232/400] Step [1/22] Loss: 0.011
+2025-08-09 18:24:46,740 - INFO - Training loss: 0.028879304268312724
+2025-08-09 18:24:58,249 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:24:58,249 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:25:04,041 - INFO - Validation Pearson correlation: -0.052
+2025-08-09 18:25:04,041 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 18:25:05,216 - INFO - Epoch [233/400] Step [1/22] Loss: 0.057
+2025-08-09 18:25:29,158 - INFO - Training loss: 0.01827048322990198
+2025-08-09 18:25:40,671 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:25:40,672 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:25:46,463 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 18:25:46,464 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 18:25:47,641 - INFO - Epoch [234/400] Step [1/22] Loss: 0.003
+2025-08-09 18:26:11,591 - INFO - Training loss: 0.016501752500930292
+2025-08-09 18:26:23,102 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:26:23,102 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:26:28,894 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 18:26:28,895 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 18:26:30,070 - INFO - Epoch [235/400] Step [1/22] Loss: 0.009
+2025-08-09 18:26:54,027 - INFO - Training loss: 0.012675213574601168
+2025-08-09 18:27:05,544 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:27:05,544 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:27:11,335 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 18:27:11,336 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 18:27:12,511 - INFO - Epoch [236/400] Step [1/22] Loss: 0.011
+2025-08-09 18:27:36,451 - INFO - Training loss: 0.02230569744609635
+2025-08-09 18:27:47,971 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:27:47,971 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:27:53,762 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 18:27:53,762 - INFO - Validation Spearman correlation: -0.145
+2025-08-09 18:27:54,936 - INFO - Epoch [237/400] Step [1/22] Loss: 0.003
+2025-08-09 18:28:18,881 - INFO - Training loss: 0.016556023556569762
+2025-08-09 18:28:30,389 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:28:30,389 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:28:36,180 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 18:28:36,180 - INFO - Validation Spearman correlation: -0.141
+2025-08-09 18:28:37,355 - INFO - Epoch [238/400] Step [1/22] Loss: 0.007
+2025-08-09 18:29:01,291 - INFO - Training loss: 0.02618901909921657
+2025-08-09 18:29:12,804 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:29:12,804 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:29:18,595 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 18:29:18,596 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 18:29:19,774 - INFO - Epoch [239/400] Step [1/22] Loss: 0.035
+2025-08-09 18:29:43,715 - INFO - Training loss: 0.023271531364033846
+2025-08-09 18:29:55,226 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:29:55,226 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:30:01,020 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 18:30:01,020 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:30:02,196 - INFO - Epoch [240/400] Step [1/22] Loss: 0.011
+2025-08-09 18:30:26,142 - INFO - Training loss: 0.018011616463561288
+2025-08-09 18:30:37,652 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:30:37,652 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:30:43,443 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 18:30:43,443 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 18:30:44,619 - INFO - Epoch [241/400] Step [1/22] Loss: 0.015
+2025-08-09 18:31:08,558 - INFO - Training loss: 0.01547971313861622
+2025-08-09 18:31:20,068 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:31:20,069 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:31:25,859 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 18:31:25,860 - INFO - Validation Spearman correlation: -0.106
+2025-08-09 18:31:27,036 - INFO - Epoch [242/400] Step [1/22] Loss: 0.091
+2025-08-09 18:31:50,985 - INFO - Training loss: 0.022077963581647386
+2025-08-09 18:32:02,499 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:32:02,499 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:32:08,291 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 18:32:08,291 - INFO - Validation Spearman correlation: -0.123
+2025-08-09 18:32:09,469 - INFO - Epoch [243/400] Step [1/22] Loss: 0.043
+2025-08-09 18:32:33,412 - INFO - Training loss: 0.047020437619225544
+2025-08-09 18:32:44,919 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:32:44,920 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:32:50,709 - INFO - Validation Pearson correlation: -0.047
+2025-08-09 18:32:50,710 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 18:32:51,886 - INFO - Epoch [244/400] Step [1/22] Loss: 0.016
+2025-08-09 18:33:15,825 - INFO - Training loss: 0.02379963177637282
+2025-08-09 18:33:27,331 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:33:27,331 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:33:33,121 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 18:33:33,121 - INFO - Validation Spearman correlation: -0.148
+2025-08-09 18:33:34,295 - INFO - Epoch [245/400] Step [1/22] Loss: 0.025
+2025-08-09 18:33:58,231 - INFO - Training loss: 0.04381937681781975
+2025-08-09 18:34:09,741 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:34:09,741 - INFO - Train Spearman correlation: 0.996
+2025-08-09 18:34:15,530 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 18:34:15,530 - INFO - Validation Spearman correlation: -0.144
+2025-08-09 18:34:16,706 - INFO - Epoch [246/400] Step [1/22] Loss: 0.151
+2025-08-09 18:34:40,636 - INFO - Training loss: 0.038236698559062046
+2025-08-09 18:34:52,172 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:34:52,172 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:34:57,958 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 18:34:57,959 - INFO - Validation Spearman correlation: -0.132
+2025-08-09 18:34:59,136 - INFO - Epoch [247/400] Step [1/22] Loss: 0.010
+2025-08-09 18:35:23,066 - INFO - Training loss: 0.02258038557854227
+2025-08-09 18:35:34,571 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:35:34,572 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:35:40,358 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 18:35:40,359 - INFO - Validation Spearman correlation: -0.144
+2025-08-09 18:35:41,533 - INFO - Epoch [248/400] Step [1/22] Loss: 0.052
+2025-08-09 18:36:05,463 - INFO - Training loss: 0.015387278822758659
+2025-08-09 18:36:16,968 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:36:16,969 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:36:22,758 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 18:36:22,758 - INFO - Validation Spearman correlation: -0.140
+2025-08-09 18:36:23,932 - INFO - Epoch [249/400] Step [1/22] Loss: 0.004
+2025-08-09 18:36:47,860 - INFO - Training loss: 0.039070574423848564
+2025-08-09 18:36:59,363 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:36:59,363 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:37:05,151 - INFO - Validation Pearson correlation: -0.047
+2025-08-09 18:37:05,152 - INFO - Validation Spearman correlation: -0.142
+2025-08-09 18:37:06,328 - INFO - Epoch [250/400] Step [1/22] Loss: 0.004
+2025-08-09 18:37:30,259 - INFO - Training loss: 0.04143855782141062
+2025-08-09 18:37:41,763 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:37:41,763 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:37:47,551 - INFO - Validation Pearson correlation: -0.047
+2025-08-09 18:37:47,551 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 18:37:48,727 - INFO - Epoch [251/400] Step [1/22] Loss: 0.006
+2025-08-09 18:38:12,655 - INFO - Training loss: 0.022027059892107816
+2025-08-09 18:38:24,159 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:38:24,159 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:38:29,947 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 18:38:29,947 - INFO - Validation Spearman correlation: -0.113
+2025-08-09 18:38:31,124 - INFO - Epoch [252/400] Step [1/22] Loss: 0.015
+2025-08-09 18:38:55,058 - INFO - Training loss: 0.023685092804953456
+2025-08-09 18:39:06,564 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:39:06,565 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:39:12,355 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 18:39:12,355 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 18:39:13,531 - INFO - Epoch [253/400] Step [1/22] Loss: 0.024
+2025-08-09 18:39:37,462 - INFO - Training loss: 0.021312589661895552
+2025-08-09 18:39:48,966 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:39:48,966 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:39:54,756 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 18:39:54,756 - INFO - Validation Spearman correlation: -0.091
+2025-08-09 18:39:55,932 - INFO - Epoch [254/400] Step [1/22] Loss: 0.011
+2025-08-09 18:40:19,869 - INFO - Training loss: 0.01306234469997104
+2025-08-09 18:40:31,378 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:40:31,378 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:40:37,169 - INFO - Validation Pearson correlation: -0.030
+2025-08-09 18:40:37,169 - INFO - Validation Spearman correlation: -0.099
+2025-08-09 18:40:38,345 - INFO - Epoch [255/400] Step [1/22] Loss: 0.015
+2025-08-09 18:41:02,279 - INFO - Training loss: 0.019442900401455434
+2025-08-09 18:41:13,791 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:41:13,791 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:41:19,580 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 18:41:19,580 - INFO - Validation Spearman correlation: -0.097
+2025-08-09 18:41:20,756 - INFO - Epoch [256/400] Step [1/22] Loss: 0.008
+2025-08-09 18:41:44,690 - INFO - Training loss: 0.020336941466666758
+2025-08-09 18:41:56,204 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:41:56,204 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:42:01,995 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 18:42:01,995 - INFO - Validation Spearman correlation: -0.104
+2025-08-09 18:42:03,173 - INFO - Epoch [257/400] Step [1/22] Loss: 0.005
+2025-08-09 18:42:27,114 - INFO - Training loss: 0.019310281101339075
+2025-08-09 18:42:38,624 - INFO - Train Pearson correlation: 0.996
+2025-08-09 18:42:38,625 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:42:44,416 - INFO - Validation Pearson correlation: -0.032
+2025-08-09 18:42:44,416 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:42:45,591 - INFO - Epoch [258/400] Step [1/22] Loss: 0.009
+2025-08-09 18:43:09,526 - INFO - Training loss: 0.021188612371175128
+2025-08-09 18:43:21,033 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:43:21,034 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:43:26,824 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 18:43:26,824 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 18:43:28,002 - INFO - Epoch [259/400] Step [1/22] Loss: 0.017
+2025-08-09 18:43:51,938 - INFO - Training loss: 0.023426770126785745
+2025-08-09 18:44:03,444 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:44:03,444 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:44:09,235 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 18:44:09,235 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 18:44:10,410 - INFO - Epoch [260/400] Step [1/22] Loss: 0.005
+2025-08-09 18:44:34,347 - INFO - Training loss: 0.025954755912111563
+2025-08-09 18:44:45,856 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:44:45,856 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:44:51,648 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 18:44:51,648 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 18:44:52,823 - INFO - Epoch [261/400] Step [1/22] Loss: 0.083
+2025-08-09 18:45:16,769 - INFO - Training loss: 0.049713952128182755
+2025-08-09 18:45:28,282 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:45:28,282 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:45:34,072 - INFO - Validation Pearson correlation: -0.015
+2025-08-09 18:45:34,072 - INFO - Validation Spearman correlation: -0.083
+2025-08-09 18:45:35,248 - INFO - Epoch [262/400] Step [1/22] Loss: 0.009
+2025-08-09 18:45:59,192 - INFO - Training loss: 0.024985322490630842
+2025-08-09 18:46:10,702 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:46:10,702 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:46:16,492 - INFO - Validation Pearson correlation: -0.020
+2025-08-09 18:46:16,492 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 18:46:17,668 - INFO - Epoch [263/400] Step [1/22] Loss: 0.083
+2025-08-09 18:46:41,618 - INFO - Training loss: 0.03798244252208282
+2025-08-09 18:46:53,147 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:46:53,147 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:46:58,942 - INFO - Validation Pearson correlation: -0.028
+2025-08-09 18:46:58,943 - INFO - Validation Spearman correlation: -0.105
+2025-08-09 18:47:00,119 - INFO - Epoch [264/400] Step [1/22] Loss: 0.011
+2025-08-09 18:47:24,064 - INFO - Training loss: 0.017246373399922795
+2025-08-09 18:47:35,575 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:47:35,575 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:47:41,364 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 18:47:41,364 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 18:47:42,543 - INFO - Epoch [265/400] Step [1/22] Loss: 0.012
+2025-08-09 18:48:06,486 - INFO - Training loss: 0.018808460783806037
+2025-08-09 18:48:18,005 - INFO - Train Pearson correlation: 0.994
+2025-08-09 18:48:18,005 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:48:23,798 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 18:48:23,798 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 18:48:24,972 - INFO - Epoch [266/400] Step [1/22] Loss: 0.059
+2025-08-09 18:48:51,980 - INFO - Training loss: 0.057705004339699044
+2025-08-09 18:49:03,512 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:49:03,512 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:49:09,298 - INFO - Validation Pearson correlation: -0.029
+2025-08-09 18:49:09,298 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 18:49:10,473 - INFO - Epoch [267/400] Step [1/22] Loss: 0.132
+2025-08-09 18:49:34,396 - INFO - Training loss: 0.02884303100026128
+2025-08-09 18:49:45,903 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:49:45,903 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:49:51,694 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 18:49:51,695 - INFO - Validation Spearman correlation: -0.113
+2025-08-09 18:49:52,871 - INFO - Epoch [268/400] Step [1/22] Loss: 0.014
+2025-08-09 18:50:16,808 - INFO - Training loss: 0.015813276505055415
+2025-08-09 18:50:28,314 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:50:28,314 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:50:34,108 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 18:50:34,108 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 18:50:35,285 - INFO - Epoch [269/400] Step [1/22] Loss: 0.011
+2025-08-09 18:50:59,227 - INFO - Training loss: 0.03129332335877486
+2025-08-09 18:51:10,736 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:51:10,736 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:51:16,527 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 18:51:16,527 - INFO - Validation Spearman correlation: -0.146
+2025-08-09 18:51:17,704 - INFO - Epoch [270/400] Step [1/22] Loss: 0.007
+2025-08-09 18:51:41,643 - INFO - Training loss: 0.010517232538073917
+2025-08-09 18:51:53,160 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:51:53,161 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:51:58,952 - INFO - Validation Pearson correlation: -0.023
+2025-08-09 18:51:58,952 - INFO - Validation Spearman correlation: -0.135
+2025-08-09 18:52:00,129 - INFO - Epoch [271/400] Step [1/22] Loss: 0.021
+2025-08-09 18:52:24,071 - INFO - Training loss: 0.02436675925061784
+2025-08-09 18:52:35,583 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:52:35,584 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:52:41,374 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 18:52:41,375 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 18:52:42,550 - INFO - Epoch [272/400] Step [1/22] Loss: 0.001
+2025-08-09 18:53:06,494 - INFO - Training loss: 0.02232369999083775
+2025-08-09 18:53:18,003 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:53:18,003 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:53:23,794 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 18:53:23,795 - INFO - Validation Spearman correlation: -0.137
+2025-08-09 18:53:24,972 - INFO - Epoch [273/400] Step [1/22] Loss: 0.032
+2025-08-09 18:53:48,915 - INFO - Training loss: 0.01639087894000113
+2025-08-09 18:54:00,427 - INFO - Train Pearson correlation: 0.997
+2025-08-09 18:54:00,427 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:54:06,219 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 18:54:06,219 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 18:54:07,394 - INFO - Epoch [274/400] Step [1/22] Loss: 0.009
+2025-08-09 18:54:31,332 - INFO - Training loss: 0.02601184241939336
+2025-08-09 18:54:42,845 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:54:42,845 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:54:59,012 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 18:54:59,020 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 18:55:00,317 - INFO - Epoch [275/400] Step [1/22] Loss: 0.008
+2025-08-09 18:55:24,170 - INFO - Training loss: 0.020267403875054282
+2025-08-09 18:55:35,659 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:55:35,659 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:55:41,442 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 18:55:41,442 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 18:55:42,617 - INFO - Epoch [276/400] Step [1/22] Loss: 0.019
+2025-08-09 18:56:07,250 - INFO - Training loss: 0.01012106207769069
+2025-08-09 18:56:18,758 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:56:18,758 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:56:24,545 - INFO - Validation Pearson correlation: -0.024
+2025-08-09 18:56:24,546 - INFO - Validation Spearman correlation: -0.131
+2025-08-09 18:56:25,721 - INFO - Epoch [277/400] Step [1/22] Loss: 0.029
+2025-08-09 18:56:49,732 - INFO - Training loss: 0.01885872440073978
+2025-08-09 18:57:01,238 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:57:01,238 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:57:07,025 - INFO - Validation Pearson correlation: -0.025
+2025-08-09 18:57:07,025 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 18:57:08,202 - INFO - Epoch [278/400] Step [1/22] Loss: 0.034
+2025-08-09 18:57:32,136 - INFO - Training loss: 0.021901129914278335
+2025-08-09 18:57:43,639 - INFO - Train Pearson correlation: 0.999
+2025-08-09 18:57:43,639 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:57:51,006 - INFO - Validation Pearson correlation: -0.023
+2025-08-09 18:57:51,006 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 18:57:52,223 - INFO - Epoch [279/400] Step [1/22] Loss: 0.019
+2025-08-09 18:58:16,139 - INFO - Training loss: 0.01421034011185508
+2025-08-09 18:58:27,645 - INFO - Train Pearson correlation: 0.999
+2025-08-09 18:58:27,645 - INFO - Train Spearman correlation: 0.997
+2025-08-09 18:58:33,433 - INFO - Validation Pearson correlation: -0.033
+2025-08-09 18:58:33,433 - INFO - Validation Spearman correlation: -0.105
+2025-08-09 18:58:34,608 - INFO - Epoch [280/400] Step [1/22] Loss: 0.017
+2025-08-09 18:58:58,534 - INFO - Training loss: 0.026496743285943838
+2025-08-09 18:59:10,040 - INFO - Train Pearson correlation: 0.999
+2025-08-09 18:59:10,040 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:59:15,828 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 18:59:15,829 - INFO - Validation Spearman correlation: -0.117
+2025-08-09 18:59:17,003 - INFO - Epoch [281/400] Step [1/22] Loss: 0.052
+2025-08-09 18:59:40,930 - INFO - Training loss: 0.018778948769481343
+2025-08-09 18:59:52,435 - INFO - Train Pearson correlation: 0.998
+2025-08-09 18:59:52,435 - INFO - Train Spearman correlation: 0.998
+2025-08-09 18:59:58,223 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 18:59:58,224 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 18:59:59,399 - INFO - Epoch [282/400] Step [1/22] Loss: 0.047
+2025-08-09 19:00:23,330 - INFO - Training loss: 0.017879489560569214
+2025-08-09 19:00:34,834 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:00:34,834 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:00:40,623 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 19:00:40,623 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 19:00:41,797 - INFO - Epoch [283/400] Step [1/22] Loss: 0.028
+2025-08-09 19:01:05,726 - INFO - Training loss: 0.008316008077765053
+2025-08-09 19:01:17,228 - INFO - Train Pearson correlation: 0.996
+2025-08-09 19:01:17,228 - INFO - Train Spearman correlation: 0.997
+2025-08-09 19:01:23,015 - INFO - Validation Pearson correlation: -0.051
+2025-08-09 19:01:23,015 - INFO - Validation Spearman correlation: -0.104
+2025-08-09 19:01:24,191 - INFO - Epoch [284/400] Step [1/22] Loss: 0.007
+2025-08-09 19:01:51,586 - INFO - Training loss: 0.018602371133800425
+2025-08-09 19:02:03,080 - INFO - Train Pearson correlation: 0.997
+2025-08-09 19:02:03,080 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:02:08,861 - INFO - Validation Pearson correlation: -0.052
+2025-08-09 19:02:08,861 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 19:02:10,036 - INFO - Epoch [285/400] Step [1/22] Loss: 0.012
+2025-08-09 19:02:33,948 - INFO - Training loss: 0.03894003094121052
+2025-08-09 19:02:46,274 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:02:46,274 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:02:52,102 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 19:02:52,102 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 19:02:53,276 - INFO - Epoch [286/400] Step [1/22] Loss: 0.034
+2025-08-09 19:03:17,199 - INFO - Training loss: 0.026870193510231646
+2025-08-09 19:03:28,702 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:03:28,702 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:03:34,490 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:03:34,491 - INFO - Validation Spearman correlation: -0.102
+2025-08-09 19:03:35,665 - INFO - Epoch [287/400] Step [1/22] Loss: 0.010
+2025-08-09 19:04:01,520 - INFO - Training loss: 0.01756557915888896
+2025-08-09 19:04:13,045 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:04:13,045 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:04:18,837 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 19:04:18,838 - INFO - Validation Spearman correlation: -0.092
+2025-08-09 19:04:20,011 - INFO - Epoch [288/400] Step [1/22] Loss: 0.019
+2025-08-09 19:04:43,940 - INFO - Training loss: 0.013079976734430105
+2025-08-09 19:04:57,666 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:04:57,666 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:05:03,454 - INFO - Validation Pearson correlation: -0.033
+2025-08-09 19:05:03,454 - INFO - Validation Spearman correlation: -0.101
+2025-08-09 19:05:04,631 - INFO - Epoch [289/400] Step [1/22] Loss: 0.004
+2025-08-09 19:05:28,555 - INFO - Training loss: 0.013669311481697316
+2025-08-09 19:05:40,062 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:05:40,062 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:05:46,469 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:05:46,555 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 19:05:47,751 - INFO - Epoch [290/400] Step [1/22] Loss: 0.059
+2025-08-09 19:06:11,675 - INFO - Training loss: 0.03929021942894906
+2025-08-09 19:06:23,180 - INFO - Train Pearson correlation: 0.997
+2025-08-09 19:06:23,181 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:06:28,971 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:06:28,971 - INFO - Validation Spearman correlation: -0.106
+2025-08-09 19:06:30,145 - INFO - Epoch [291/400] Step [1/22] Loss: 0.010
+2025-08-09 19:06:54,824 - INFO - Training loss: 0.0170961542065594
+2025-08-09 19:07:06,333 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:07:06,333 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:07:12,120 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 19:07:12,121 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 19:07:13,297 - INFO - Epoch [292/400] Step [1/22] Loss: 0.005
+2025-08-09 19:07:37,231 - INFO - Training loss: 0.013363325246080587
+2025-08-09 19:07:48,776 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:07:48,776 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:07:54,564 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:07:54,564 - INFO - Validation Spearman correlation: -0.111
+2025-08-09 19:07:55,740 - INFO - Epoch [293/400] Step [1/22] Loss: 0.014
+2025-08-09 19:08:19,678 - INFO - Training loss: 0.015001965734303336
+2025-08-09 19:08:31,186 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:08:31,186 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:08:36,978 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:08:36,978 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 19:08:38,155 - INFO - Epoch [294/400] Step [1/22] Loss: 0.018
+2025-08-09 19:09:02,338 - INFO - Training loss: 0.01882862381171435
+2025-08-09 19:09:13,860 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:09:13,860 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:09:19,653 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 19:09:19,653 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 19:09:20,829 - INFO - Epoch [295/400] Step [1/22] Loss: 0.023
+2025-08-09 19:09:44,770 - INFO - Training loss: 0.010245702589269389
+2025-08-09 19:09:57,672 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:09:57,672 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:10:03,459 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 19:10:03,459 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 19:10:04,634 - INFO - Epoch [296/400] Step [1/22] Loss: 0.003
+2025-08-09 19:10:28,562 - INFO - Training loss: 0.008804866689553653
+2025-08-09 19:10:40,069 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:10:40,070 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:10:45,919 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 19:10:45,919 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 19:10:47,100 - INFO - Epoch [297/400] Step [1/22] Loss: 0.018
+2025-08-09 19:11:11,040 - INFO - Training loss: 0.016223280617850833
+2025-08-09 19:11:22,544 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:11:22,544 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:11:28,335 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:11:28,335 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 19:11:29,512 - INFO - Epoch [298/400] Step [1/22] Loss: 0.031
+2025-08-09 19:11:53,455 - INFO - Training loss: 0.013796047741462562
+2025-08-09 19:12:04,963 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:12:04,964 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:12:10,753 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:12:10,753 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:12:11,929 - INFO - Epoch [299/400] Step [1/22] Loss: 0.010
+2025-08-09 19:12:35,864 - INFO - Training loss: 0.011929186606060037
+2025-08-09 19:12:47,387 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:12:47,388 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:12:53,176 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:12:53,177 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 19:12:54,352 - INFO - Epoch [300/400] Step [1/22] Loss: 0.006
+2025-08-09 19:13:18,286 - INFO - Training loss: 0.022188564963554116
+2025-08-09 19:13:29,798 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:13:29,799 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:13:35,591 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 19:13:35,591 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 19:13:36,766 - INFO - Epoch [301/400] Step [1/22] Loss: 0.044
+2025-08-09 19:14:00,735 - INFO - Training loss: 0.01910534119021825
+2025-08-09 19:14:12,242 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:14:12,242 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:14:18,035 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 19:14:18,035 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 19:14:19,210 - INFO - Epoch [302/400] Step [1/22] Loss: 0.020
+2025-08-09 19:14:43,155 - INFO - Training loss: 0.011474812382154843
+2025-08-09 19:14:54,669 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:14:54,672 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:15:00,462 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:15:00,462 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 19:15:01,640 - INFO - Epoch [303/400] Step [1/22] Loss: 0.028
+2025-08-09 19:15:25,575 - INFO - Training loss: 0.016973765529903838
+2025-08-09 19:15:37,082 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:15:37,082 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:15:42,870 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 19:15:42,870 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 19:15:44,046 - INFO - Epoch [304/400] Step [1/22] Loss: 0.013
+2025-08-09 19:16:07,995 - INFO - Training loss: 0.0183328382501548
+2025-08-09 19:16:19,509 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:16:19,510 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:16:25,299 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 19:16:25,299 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 19:16:26,475 - INFO - Epoch [305/400] Step [1/22] Loss: 0.017
+2025-08-09 19:16:50,599 - INFO - Training loss: 0.013103459289678458
+2025-08-09 19:17:02,113 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:17:02,113 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:17:07,903 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 19:17:07,903 - INFO - Validation Spearman correlation: -0.104
+2025-08-09 19:17:09,080 - INFO - Epoch [306/400] Step [1/22] Loss: 0.031
+2025-08-09 19:17:33,022 - INFO - Training loss: 0.010109196406450461
+2025-08-09 19:17:44,530 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:17:44,531 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:17:50,319 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:17:50,319 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 19:17:51,496 - INFO - Epoch [307/400] Step [1/22] Loss: 0.014
+2025-08-09 19:18:15,435 - INFO - Training loss: 0.026462672648697415
+2025-08-09 19:18:26,942 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:18:26,942 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:18:32,732 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:18:32,732 - INFO - Validation Spearman correlation: -0.126
+2025-08-09 19:18:33,907 - INFO - Epoch [308/400] Step [1/22] Loss: 0.039
+2025-08-09 19:18:58,618 - INFO - Training loss: 0.010023939560844818
+2025-08-09 19:19:10,135 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:19:10,136 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:19:15,925 - INFO - Validation Pearson correlation: -0.055
+2025-08-09 19:19:15,925 - INFO - Validation Spearman correlation: -0.155
+2025-08-09 19:19:17,100 - INFO - Epoch [309/400] Step [1/22] Loss: 0.010
+2025-08-09 19:19:41,036 - INFO - Training loss: 0.015189611998556013
+2025-08-09 19:19:52,544 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:19:52,545 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:19:58,331 - INFO - Validation Pearson correlation: -0.053
+2025-08-09 19:19:58,331 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 19:19:59,507 - INFO - Epoch [310/400] Step [1/22] Loss: 0.004
+2025-08-09 19:20:23,441 - INFO - Training loss: 0.019031382626218892
+2025-08-09 19:20:34,949 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:20:34,949 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:20:40,739 - INFO - Validation Pearson correlation: -0.051
+2025-08-09 19:20:40,739 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 19:20:41,916 - INFO - Epoch [311/400] Step [1/22] Loss: 0.003
+2025-08-09 19:21:06,216 - INFO - Training loss: 0.010065999268342486
+2025-08-09 19:21:17,751 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:21:17,751 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:21:23,538 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 19:21:23,539 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 19:21:24,714 - INFO - Epoch [312/400] Step [1/22] Loss: 0.008
+2025-08-09 19:21:48,655 - INFO - Training loss: 0.014884294994937425
+2025-08-09 19:22:00,162 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:22:00,163 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:22:05,951 - INFO - Validation Pearson correlation: -0.057
+2025-08-09 19:22:05,951 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 19:22:07,125 - INFO - Epoch [313/400] Step [1/22] Loss: 0.002
+2025-08-09 19:22:31,055 - INFO - Training loss: 0.013166006162381646
+2025-08-09 19:22:42,560 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:22:42,560 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:22:48,519 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:22:48,522 - INFO - Validation Spearman correlation: -0.131
+2025-08-09 19:22:49,702 - INFO - Epoch [314/400] Step [1/22] Loss: 0.014
+2025-08-09 19:23:13,625 - INFO - Training loss: 0.009311232610012998
+2025-08-09 19:23:25,123 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:23:25,123 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:23:30,911 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:23:30,911 - INFO - Validation Spearman correlation: -0.143
+2025-08-09 19:23:32,086 - INFO - Epoch [315/400] Step [1/22] Loss: 0.011
+2025-08-09 19:23:56,018 - INFO - Training loss: 0.018589627484536984
+2025-08-09 19:24:07,522 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:24:07,523 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:24:13,312 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:24:13,312 - INFO - Validation Spearman correlation: -0.126
+2025-08-09 19:24:14,487 - INFO - Epoch [316/400] Step [1/22] Loss: 0.025
+2025-08-09 19:24:38,421 - INFO - Training loss: 0.01306126681579785
+2025-08-09 19:24:49,929 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:24:49,929 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:24:55,718 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:24:55,718 - INFO - Validation Spearman correlation: -0.126
+2025-08-09 19:24:56,893 - INFO - Epoch [317/400] Step [1/22] Loss: 0.007
+2025-08-09 19:25:20,832 - INFO - Training loss: 0.02099035917357965
+2025-08-09 19:25:32,339 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:25:32,339 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:25:38,132 - INFO - Validation Pearson correlation: -0.051
+2025-08-09 19:25:38,132 - INFO - Validation Spearman correlation: -0.139
+2025-08-09 19:25:39,307 - INFO - Epoch [318/400] Step [1/22] Loss: 0.014
+2025-08-09 19:26:03,244 - INFO - Training loss: 0.015254542676054618
+2025-08-09 19:26:14,756 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:26:14,756 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:26:20,546 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 19:26:20,546 - INFO - Validation Spearman correlation: -0.142
+2025-08-09 19:26:21,721 - INFO - Epoch [319/400] Step [1/22] Loss: 0.016
+2025-08-09 19:26:45,659 - INFO - Training loss: 0.014670369268225675
+2025-08-09 19:26:57,168 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:26:57,168 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:27:02,957 - INFO - Validation Pearson correlation: -0.050
+2025-08-09 19:27:02,958 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 19:27:04,133 - INFO - Epoch [320/400] Step [1/22] Loss: 0.030
+2025-08-09 19:27:28,075 - INFO - Training loss: 0.010464344755746424
+2025-08-09 19:27:39,587 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:27:39,587 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:27:45,378 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 19:27:45,378 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 19:27:46,556 - INFO - Epoch [321/400] Step [1/22] Loss: 0.008
+2025-08-09 19:28:10,496 - INFO - Training loss: 0.009264253318013454
+2025-08-09 19:28:22,004 - INFO - Train Pearson correlation: 0.998
+2025-08-09 19:28:22,004 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:28:27,795 - INFO - Validation Pearson correlation: -0.058
+2025-08-09 19:28:27,795 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 19:28:28,969 - INFO - Epoch [322/400] Step [1/22] Loss: 0.013
+2025-08-09 19:28:52,904 - INFO - Training loss: 0.01152498911357146
+2025-08-09 19:29:04,412 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:29:04,412 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:29:10,203 - INFO - Validation Pearson correlation: -0.054
+2025-08-09 19:29:10,204 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 19:29:11,380 - INFO - Epoch [323/400] Step [1/22] Loss: 0.005
+2025-08-09 19:29:35,322 - INFO - Training loss: 0.011219976406375115
+2025-08-09 19:29:46,831 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:29:46,831 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:29:52,623 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 19:29:52,623 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 19:29:53,798 - INFO - Epoch [324/400] Step [1/22] Loss: 0.015
+2025-08-09 19:30:17,733 - INFO - Training loss: 0.0159692794338546
+2025-08-09 19:30:29,244 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:30:29,245 - INFO - Train Spearman correlation: 0.998
+2025-08-09 19:30:35,036 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 19:30:35,036 - INFO - Validation Spearman correlation: -0.107
+2025-08-09 19:30:36,212 - INFO - Epoch [325/400] Step [1/22] Loss: 0.011
+2025-08-09 19:31:00,157 - INFO - Training loss: 0.012804973807016557
+2025-08-09 19:31:11,667 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:31:11,668 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:31:17,458 - INFO - Validation Pearson correlation: -0.046
+2025-08-09 19:31:17,459 - INFO - Validation Spearman correlation: -0.113
+2025-08-09 19:31:18,634 - INFO - Epoch [326/400] Step [1/22] Loss: 0.006
+2025-08-09 19:31:42,578 - INFO - Training loss: 0.009236440821868282
+2025-08-09 19:31:54,087 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:31:54,088 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:31:59,879 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 19:31:59,879 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 19:32:01,056 - INFO - Epoch [327/400] Step [1/22] Loss: 0.007
+2025-08-09 19:32:24,996 - INFO - Training loss: 0.012356242059137334
+2025-08-09 19:32:36,504 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:32:36,504 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:32:42,295 - INFO - Validation Pearson correlation: -0.048
+2025-08-09 19:32:42,295 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 19:32:43,472 - INFO - Epoch [328/400] Step [1/22] Loss: 0.012
+2025-08-09 19:33:07,418 - INFO - Training loss: 0.008056648445992985
+2025-08-09 19:33:18,926 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:33:18,926 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:33:24,716 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 19:33:24,716 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 19:33:25,894 - INFO - Epoch [329/400] Step [1/22] Loss: 0.015
+2025-08-09 19:33:49,838 - INFO - Training loss: 0.010103456768609414
+2025-08-09 19:34:01,350 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:34:01,350 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:34:07,142 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 19:34:07,142 - INFO - Validation Spearman correlation: -0.109
+2025-08-09 19:34:08,319 - INFO - Epoch [330/400] Step [1/22] Loss: 0.013
+2025-08-09 19:34:32,257 - INFO - Training loss: 0.00922603896205229
+2025-08-09 19:34:43,766 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:34:43,767 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:34:49,561 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:34:49,561 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 19:34:50,736 - INFO - Epoch [331/400] Step [1/22] Loss: 0.005
+2025-08-09 19:35:14,681 - INFO - Training loss: 0.01198914979547474
+2025-08-09 19:35:26,194 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:35:26,194 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:35:31,984 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:35:31,984 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 19:35:33,159 - INFO - Epoch [332/400] Step [1/22] Loss: 0.007
+2025-08-09 19:35:57,105 - INFO - Training loss: 0.013757689146917652
+2025-08-09 19:36:08,613 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:36:08,613 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:36:14,403 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 19:36:14,403 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:36:15,580 - INFO - Epoch [333/400] Step [1/22] Loss: 0.022
+2025-08-09 19:36:39,514 - INFO - Training loss: 0.01720408193068579
+2025-08-09 19:36:51,022 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:36:51,022 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:36:56,815 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 19:36:56,815 - INFO - Validation Spearman correlation: -0.115
+2025-08-09 19:36:57,992 - INFO - Epoch [334/400] Step [1/22] Loss: 0.007
+2025-08-09 19:37:21,931 - INFO - Training loss: 0.011363669195402921
+2025-08-09 19:37:33,440 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:37:33,440 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:37:39,229 - INFO - Validation Pearson correlation: -0.045
+2025-08-09 19:37:39,230 - INFO - Validation Spearman correlation: -0.120
+2025-08-09 19:37:40,407 - INFO - Epoch [335/400] Step [1/22] Loss: 0.002
+2025-08-09 19:38:04,350 - INFO - Training loss: 0.0064169246444097635
+2025-08-09 19:38:15,858 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:38:15,859 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:38:21,650 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:38:21,650 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 19:38:22,826 - INFO - Epoch [336/400] Step [1/22] Loss: 0.009
+2025-08-09 19:38:46,772 - INFO - Training loss: 0.00813563191331923
+2025-08-09 19:38:58,283 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:38:58,283 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:39:04,075 - INFO - Validation Pearson correlation: -0.052
+2025-08-09 19:39:04,075 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 19:39:05,252 - INFO - Epoch [337/400] Step [1/22] Loss: 0.014
+2025-08-09 19:39:29,194 - INFO - Training loss: 0.016392667481506414
+2025-08-09 19:39:40,700 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:39:40,701 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:39:46,494 - INFO - Validation Pearson correlation: -0.049
+2025-08-09 19:39:46,494 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 19:39:47,671 - INFO - Epoch [338/400] Step [1/22] Loss: 0.013
+2025-08-09 19:40:11,610 - INFO - Training loss: 0.009275395976146683
+2025-08-09 19:40:23,122 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:40:23,122 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:40:28,913 - INFO - Validation Pearson correlation: -0.044
+2025-08-09 19:40:28,914 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 19:40:30,088 - INFO - Epoch [339/400] Step [1/22] Loss: 0.029
+2025-08-09 19:40:54,030 - INFO - Training loss: 0.009880821463990618
+2025-08-09 19:41:05,540 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:41:05,540 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:41:11,329 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:41:11,329 - INFO - Validation Spearman correlation: -0.127
+2025-08-09 19:41:12,504 - INFO - Epoch [340/400] Step [1/22] Loss: 0.015
+2025-08-09 19:41:36,443 - INFO - Training loss: 0.007132214134220372
+2025-08-09 19:41:47,954 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:41:47,955 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:41:53,747 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 19:41:53,747 - INFO - Validation Spearman correlation: -0.135
+2025-08-09 19:41:54,922 - INFO - Epoch [341/400] Step [1/22] Loss: 0.009
+2025-08-09 19:42:18,864 - INFO - Training loss: 0.006674938418489712
+2025-08-09 19:42:30,370 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:42:30,370 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:42:36,163 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 19:42:36,163 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:42:37,338 - INFO - Epoch [342/400] Step [1/22] Loss: 0.009
+2025-08-09 19:43:01,274 - INFO - Training loss: 0.00691063004672866
+2025-08-09 19:43:12,781 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:43:12,781 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:43:18,572 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 19:43:18,572 - INFO - Validation Spearman correlation: -0.102
+2025-08-09 19:43:19,747 - INFO - Epoch [343/400] Step [1/22] Loss: 0.005
+2025-08-09 19:43:43,679 - INFO - Training loss: 0.011050842437808487
+2025-08-09 19:43:55,185 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:43:55,186 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:44:00,975 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:44:00,975 - INFO - Validation Spearman correlation: -0.113
+2025-08-09 19:44:02,151 - INFO - Epoch [344/400] Step [1/22] Loss: 0.043
+2025-08-09 19:44:26,083 - INFO - Training loss: 0.008924106622792104
+2025-08-09 19:44:37,587 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:44:37,587 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:44:43,374 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:44:43,375 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 19:44:44,549 - INFO - Epoch [345/400] Step [1/22] Loss: 0.005
+2025-08-09 19:45:08,480 - INFO - Training loss: 0.012976873306218873
+2025-08-09 19:45:19,987 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:45:19,987 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:45:25,775 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:45:25,775 - INFO - Validation Spearman correlation: -0.134
+2025-08-09 19:45:26,951 - INFO - Epoch [346/400] Step [1/22] Loss: 0.006
+2025-08-09 19:45:50,878 - INFO - Training loss: 0.008799931833478198
+2025-08-09 19:46:02,380 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:46:02,380 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:46:08,170 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:46:08,171 - INFO - Validation Spearman correlation: -0.128
+2025-08-09 19:46:09,346 - INFO - Epoch [347/400] Step [1/22] Loss: 0.002
+2025-08-09 19:46:33,276 - INFO - Training loss: 0.007176027008840306
+2025-08-09 19:46:44,779 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:46:44,779 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:46:50,567 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 19:46:50,567 - INFO - Validation Spearman correlation: -0.131
+2025-08-09 19:46:51,742 - INFO - Epoch [348/400] Step [1/22] Loss: 0.005
+2025-08-09 19:47:15,667 - INFO - Training loss: 0.009110327624842863
+2025-08-09 19:47:27,170 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:47:27,170 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:47:32,959 - INFO - Validation Pearson correlation: -0.033
+2025-08-09 19:47:32,959 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 19:47:34,135 - INFO - Epoch [349/400] Step [1/22] Loss: 0.004
+2025-08-09 19:47:58,062 - INFO - Training loss: 0.006595968030689453
+2025-08-09 19:48:09,566 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:48:09,566 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:48:15,354 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 19:48:15,354 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 19:48:16,527 - INFO - Epoch [350/400] Step [1/22] Loss: 0.005
+2025-08-09 19:48:40,463 - INFO - Training loss: 0.005952923352279785
+2025-08-09 19:48:51,968 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:48:51,968 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:48:57,759 - INFO - Validation Pearson correlation: -0.035
+2025-08-09 19:48:57,759 - INFO - Validation Spearman correlation: -0.099
+2025-08-09 19:48:58,936 - INFO - Epoch [351/400] Step [1/22] Loss: 0.013
+2025-08-09 19:49:22,870 - INFO - Training loss: 0.014285114540887827
+2025-08-09 19:49:34,380 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:49:34,381 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:49:40,171 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 19:49:40,171 - INFO - Validation Spearman correlation: -0.104
+2025-08-09 19:49:41,347 - INFO - Epoch [352/400] Step [1/22] Loss: 0.009
+2025-08-09 19:50:05,283 - INFO - Training loss: 0.004419968849767677
+2025-08-09 19:50:16,788 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:50:16,788 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:50:22,576 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 19:50:22,577 - INFO - Validation Spearman correlation: -0.108
+2025-08-09 19:50:23,753 - INFO - Epoch [353/400] Step [1/22] Loss: 0.012
+2025-08-09 19:50:47,690 - INFO - Training loss: 0.0070901681015543136
+2025-08-09 19:50:59,197 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:50:59,197 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:51:04,989 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 19:51:04,990 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 19:51:06,166 - INFO - Epoch [354/400] Step [1/22] Loss: 0.005
+2025-08-09 19:51:30,102 - INFO - Training loss: 0.007006512071132998
+2025-08-09 19:51:41,609 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:51:41,609 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:51:47,400 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:51:47,400 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 19:51:48,576 - INFO - Epoch [355/400] Step [1/22] Loss: 0.005
+2025-08-09 19:52:12,520 - INFO - Training loss: 0.00908784648742188
+2025-08-09 19:52:24,028 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:52:24,028 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:52:29,818 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 19:52:29,818 - INFO - Validation Spearman correlation: -0.111
+2025-08-09 19:52:30,995 - INFO - Epoch [356/400] Step [1/22] Loss: 0.008
+2025-08-09 19:52:54,935 - INFO - Training loss: 0.008090045901057734
+2025-08-09 19:53:06,443 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:53:06,444 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:53:12,235 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:53:12,235 - INFO - Validation Spearman correlation: -0.105
+2025-08-09 19:53:13,411 - INFO - Epoch [357/400] Step [1/22] Loss: 0.005
+2025-08-09 19:53:37,346 - INFO - Training loss: 0.006470463246593929
+2025-08-09 19:53:48,865 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:53:48,866 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:53:54,656 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 19:53:54,656 - INFO - Validation Spearman correlation: -0.123
+2025-08-09 19:53:55,834 - INFO - Epoch [358/400] Step [1/22] Loss: 0.002
+2025-08-09 19:54:19,771 - INFO - Training loss: 0.009579178564970127
+2025-08-09 19:54:31,281 - INFO - Train Pearson correlation: 0.999
+2025-08-09 19:54:31,281 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:54:37,071 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 19:54:37,071 - INFO - Validation Spearman correlation: -0.110
+2025-08-09 19:54:38,247 - INFO - Epoch [359/400] Step [1/22] Loss: 0.013
+2025-08-09 19:55:03,596 - INFO - Training loss: 0.007370364061154594
+2025-08-09 19:55:15,113 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:55:15,113 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:55:20,902 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 19:55:20,902 - INFO - Validation Spearman correlation: -0.116
+2025-08-09 19:55:22,077 - INFO - Epoch [360/400] Step [1/22] Loss: 0.002
+2025-08-09 19:55:46,014 - INFO - Training loss: 0.007056291540555487
+2025-08-09 19:55:57,540 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:55:57,540 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:56:03,330 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:56:03,331 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:56:04,506 - INFO - Epoch [361/400] Step [1/22] Loss: 0.007
+2025-08-09 19:56:28,446 - INFO - Training loss: 0.007060007925081829
+2025-08-09 19:56:39,952 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:56:39,952 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:56:45,746 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 19:56:45,746 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:56:46,922 - INFO - Epoch [362/400] Step [1/22] Loss: 0.007
+2025-08-09 19:57:10,859 - INFO - Training loss: 0.005289476473990362
+2025-08-09 19:57:22,368 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:57:22,369 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:57:28,160 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:57:28,160 - INFO - Validation Spearman correlation: -0.113
+2025-08-09 19:57:29,335 - INFO - Epoch [363/400] Step [1/22] Loss: 0.011
+2025-08-09 19:57:53,275 - INFO - Training loss: 0.007881611088206146
+2025-08-09 19:58:04,785 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:58:04,785 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:58:10,578 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 19:58:10,578 - INFO - Validation Spearman correlation: -0.105
+2025-08-09 19:58:11,753 - INFO - Epoch [364/400] Step [1/22] Loss: 0.014
+2025-08-09 19:58:35,696 - INFO - Training loss: 0.006049511123406278
+2025-08-09 19:58:47,207 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:58:47,207 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:58:52,999 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:58:52,999 - INFO - Validation Spearman correlation: -0.103
+2025-08-09 19:58:54,174 - INFO - Epoch [365/400] Step [1/22] Loss: 0.011
+2025-08-09 19:59:18,117 - INFO - Training loss: 0.007280188326893205
+2025-08-09 19:59:29,629 - INFO - Train Pearson correlation: 1.000
+2025-08-09 19:59:29,630 - INFO - Train Spearman correlation: 0.999
+2025-08-09 19:59:35,419 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 19:59:35,419 - INFO - Validation Spearman correlation: -0.114
+2025-08-09 19:59:36,595 - INFO - Epoch [366/400] Step [1/22] Loss: 0.020
+2025-08-09 20:00:08,475 - INFO - Training loss: 0.005190424831446514
+2025-08-09 20:00:19,974 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:00:19,974 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:00:25,753 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 20:00:25,753 - INFO - Validation Spearman correlation: -0.101
+2025-08-09 20:00:26,930 - INFO - Epoch [367/400] Step [1/22] Loss: 0.001
+2025-08-09 20:00:50,846 - INFO - Training loss: 0.004649533942442345
+2025-08-09 20:01:02,350 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:01:02,351 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:01:08,137 - INFO - Validation Pearson correlation: -0.032
+2025-08-09 20:01:08,137 - INFO - Validation Spearman correlation: -0.105
+2025-08-09 20:01:09,311 - INFO - Epoch [368/400] Step [1/22] Loss: 0.004
+2025-08-09 20:01:33,244 - INFO - Training loss: 0.008140883165072988
+2025-08-09 20:01:44,754 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:01:44,755 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:01:50,546 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 20:01:50,547 - INFO - Validation Spearman correlation: -0.119
+2025-08-09 20:01:51,724 - INFO - Epoch [369/400] Step [1/22] Loss: 0.002
+2025-08-09 20:02:15,664 - INFO - Training loss: 0.0037901098403381184
+2025-08-09 20:02:27,176 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:02:27,176 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:02:32,970 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 20:02:32,970 - INFO - Validation Spearman correlation: -0.112
+2025-08-09 20:02:34,145 - INFO - Epoch [370/400] Step [1/22] Loss: 0.004
+2025-08-09 20:02:58,094 - INFO - Training loss: 0.005156095237576996
+2025-08-09 20:03:09,608 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:03:09,608 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:03:15,399 - INFO - Validation Pearson correlation: -0.036
+2025-08-09 20:03:15,399 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 20:03:16,575 - INFO - Epoch [371/400] Step [1/22] Loss: 0.019
+2025-08-09 20:03:40,522 - INFO - Training loss: 0.0057200768443925135
+2025-08-09 20:03:52,034 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:03:52,034 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:03:57,827 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 20:03:57,827 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 20:03:59,002 - INFO - Epoch [372/400] Step [1/22] Loss: 0.007
+2025-08-09 20:04:22,954 - INFO - Training loss: 0.006324194768570702
+2025-08-09 20:04:34,468 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:04:34,468 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:04:40,261 - INFO - Validation Pearson correlation: -0.034
+2025-08-09 20:04:40,262 - INFO - Validation Spearman correlation: -0.118
+2025-08-09 20:04:41,437 - INFO - Epoch [373/400] Step [1/22] Loss: 0.004
+2025-08-09 20:05:05,379 - INFO - Training loss: 0.0051469131642740895
+2025-08-09 20:05:16,890 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:05:16,890 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:05:22,682 - INFO - Validation Pearson correlation: -0.037
+2025-08-09 20:05:22,682 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:05:23,857 - INFO - Epoch [374/400] Step [1/22] Loss: 0.028
+2025-08-09 20:05:47,795 - INFO - Training loss: 0.004678470679209568
+2025-08-09 20:05:59,299 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:05:59,299 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:06:05,090 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:06:05,091 - INFO - Validation Spearman correlation: -0.143
+2025-08-09 20:06:06,267 - INFO - Epoch [375/400] Step [1/22] Loss: 0.009
+2025-08-09 20:06:30,203 - INFO - Training loss: 0.007385756300540048
+2025-08-09 20:06:41,708 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:06:41,709 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:06:47,499 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:06:47,499 - INFO - Validation Spearman correlation: -0.135
+2025-08-09 20:06:48,675 - INFO - Epoch [376/400] Step [1/22] Loss: 0.005
+2025-08-09 20:07:12,605 - INFO - Training loss: 0.004125976522283798
+2025-08-09 20:07:24,113 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:07:24,113 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:07:29,908 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:07:29,908 - INFO - Validation Spearman correlation: -0.139
+2025-08-09 20:07:31,084 - INFO - Epoch [377/400] Step [1/22] Loss: 0.001
+2025-08-09 20:07:55,034 - INFO - Training loss: 0.0037282371314094316
+2025-08-09 20:08:06,541 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:08:06,541 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:08:12,331 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 20:08:12,331 - INFO - Validation Spearman correlation: -0.138
+2025-08-09 20:08:13,507 - INFO - Epoch [378/400] Step [1/22] Loss: 0.003
+2025-08-09 20:08:37,435 - INFO - Training loss: 0.004757546654383821
+2025-08-09 20:08:50,206 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:08:50,206 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:08:55,994 - INFO - Validation Pearson correlation: -0.043
+2025-08-09 20:08:55,994 - INFO - Validation Spearman correlation: -0.128
+2025-08-09 20:08:57,168 - INFO - Epoch [379/400] Step [1/22] Loss: 0.003
+2025-08-09 20:09:21,090 - INFO - Training loss: 0.005429578712210059
+2025-08-09 20:09:32,597 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:09:32,598 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:09:38,385 - INFO - Validation Pearson correlation: -0.042
+2025-08-09 20:09:38,386 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:09:39,561 - INFO - Epoch [380/400] Step [1/22] Loss: 0.011
+2025-08-09 20:10:03,494 - INFO - Training loss: 0.008021025997798213
+2025-08-09 20:10:15,000 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:10:15,001 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:10:20,791 - INFO - Validation Pearson correlation: -0.041
+2025-08-09 20:10:20,791 - INFO - Validation Spearman correlation: -0.137
+2025-08-09 20:10:21,967 - INFO - Epoch [381/400] Step [1/22] Loss: 0.012
+2025-08-09 20:10:45,893 - INFO - Training loss: 0.006569871660427783
+2025-08-09 20:10:57,403 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:10:57,404 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:11:03,194 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 20:11:03,194 - INFO - Validation Spearman correlation: -0.137
+2025-08-09 20:11:04,370 - INFO - Epoch [382/400] Step [1/22] Loss: 0.004
+2025-08-09 20:11:28,307 - INFO - Training loss: 0.005438323991256766
+2025-08-09 20:11:39,815 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:11:39,816 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:11:45,607 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:11:45,607 - INFO - Validation Spearman correlation: -0.140
+2025-08-09 20:11:47,647 - INFO - Epoch [383/400] Step [1/22] Loss: 0.006
+2025-08-09 20:12:11,598 - INFO - Training loss: 0.004147143724945967
+2025-08-09 20:12:23,111 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:12:23,111 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:12:28,900 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:12:28,900 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 20:12:30,078 - INFO - Epoch [384/400] Step [1/22] Loss: 0.006
+2025-08-09 20:12:54,023 - INFO - Training loss: 0.0044262412861412895
+2025-08-09 20:13:05,531 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:13:05,531 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:13:11,323 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:13:11,323 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 20:13:12,499 - INFO - Epoch [385/400] Step [1/22] Loss: 0.002
+2025-08-09 20:13:36,435 - INFO - Training loss: 0.003687616800809999
+2025-08-09 20:13:48,071 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:13:48,071 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:13:53,865 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:13:53,866 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 20:13:55,042 - INFO - Epoch [386/400] Step [1/22] Loss: 0.005
+2025-08-09 20:14:18,981 - INFO - Training loss: 0.003879143734758889
+2025-08-09 20:14:30,488 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:14:30,488 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:14:36,279 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:14:36,279 - INFO - Validation Spearman correlation: -0.123
+2025-08-09 20:14:37,455 - INFO - Epoch [387/400] Step [1/22] Loss: 0.003
+2025-08-09 20:15:02,035 - INFO - Training loss: 0.005141523394162174
+2025-08-09 20:15:13,547 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:15:13,547 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:15:19,338 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:15:19,338 - INFO - Validation Spearman correlation: -0.121
+2025-08-09 20:15:20,512 - INFO - Epoch [388/400] Step [1/22] Loss: 0.003
+2025-08-09 20:15:44,454 - INFO - Training loss: 0.004157336068932305
+2025-08-09 20:15:55,968 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:15:55,970 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:16:01,762 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:16:01,762 - INFO - Validation Spearman correlation: -0.122
+2025-08-09 20:16:02,939 - INFO - Epoch [389/400] Step [1/22] Loss: 0.002
+2025-08-09 20:16:26,883 - INFO - Training loss: 0.006028989636847241
+2025-08-09 20:16:38,393 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:16:38,393 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:16:44,185 - INFO - Validation Pearson correlation: -0.040
+2025-08-09 20:16:44,186 - INFO - Validation Spearman correlation: -0.124
+2025-08-09 20:16:45,360 - INFO - Epoch [390/400] Step [1/22] Loss: 0.000
+2025-08-09 20:17:10,207 - INFO - Training loss: 0.005073886215210554
+2025-08-09 20:17:21,718 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:17:21,718 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:17:27,509 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:17:27,509 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:17:28,683 - INFO - Epoch [391/400] Step [1/22] Loss: 0.001
+2025-08-09 20:17:52,798 - INFO - Training loss: 0.004245806208928116
+2025-08-09 20:18:04,310 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:18:04,311 - INFO - Train Spearman correlation: 1.000
+2025-08-09 20:18:10,104 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:18:10,105 - INFO - Validation Spearman correlation: -0.125
+2025-08-09 20:18:11,281 - INFO - Epoch [392/400] Step [1/22] Loss: 0.007
+2025-08-09 20:18:35,223 - INFO - Training loss: 0.005269131072881547
+2025-08-09 20:18:47,389 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:18:47,447 - INFO - Train Spearman correlation: 1.000
+2025-08-09 20:18:53,234 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:18:53,235 - INFO - Validation Spearman correlation: -0.123
+2025-08-09 20:18:54,410 - INFO - Epoch [393/400] Step [1/22] Loss: 0.009
+2025-08-09 20:19:18,340 - INFO - Training loss: 0.003748467202637006
+2025-08-09 20:19:29,849 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:19:29,849 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:19:35,639 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:19:35,640 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:19:36,815 - INFO - Epoch [394/400] Step [1/22] Loss: 0.007
+2025-08-09 20:20:00,760 - INFO - Training loss: 0.005191016525548714
+2025-08-09 20:20:12,270 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:20:12,271 - INFO - Train Spearman correlation: 1.000
+2025-08-09 20:20:18,060 - INFO - Validation Pearson correlation: -0.039
+2025-08-09 20:20:18,061 - INFO - Validation Spearman correlation: -0.143
+2025-08-09 20:20:19,235 - INFO - Epoch [395/400] Step [1/22] Loss: 0.001
+2025-08-09 20:20:43,183 - INFO - Training loss: 0.004334847133246843
+2025-08-09 20:20:54,703 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:20:54,704 - INFO - Train Spearman correlation: 1.000
+2025-08-09 20:21:00,498 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:21:00,498 - INFO - Validation Spearman correlation: -0.132
+2025-08-09 20:21:01,675 - INFO - Epoch [396/400] Step [1/22] Loss: 0.002
+2025-08-09 20:21:25,621 - INFO - Training loss: 0.0035193560285155068
+2025-08-09 20:21:37,131 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:21:37,131 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:21:42,923 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:21:42,923 - INFO - Validation Spearman correlation: -0.129
+2025-08-09 20:21:44,099 - INFO - Epoch [397/400] Step [1/22] Loss: 0.012
+2025-08-09 20:22:08,039 - INFO - Training loss: 0.0056583952709016476
+2025-08-09 20:22:19,562 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:22:19,562 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:22:25,354 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:22:25,354 - INFO - Validation Spearman correlation: -0.133
+2025-08-09 20:22:26,530 - INFO - Epoch [398/400] Step [1/22] Loss: 0.002
+2025-08-09 20:22:51,227 - INFO - Training loss: 0.003993664122059603
+2025-08-09 20:23:02,739 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:23:02,740 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:23:08,532 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:23:08,532 - INFO - Validation Spearman correlation: -0.133
+2025-08-09 20:23:09,709 - INFO - Epoch [399/400] Step [1/22] Loss: 0.005
+2025-08-09 20:23:33,659 - INFO - Training loss: 0.004275171460573223
+2025-08-09 20:23:45,170 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:23:45,171 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:23:50,962 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:23:50,962 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:23:52,137 - INFO - Epoch [400/400] Step [1/22] Loss: 0.003
+2025-08-09 20:24:16,083 - INFO - Training loss: 0.004558752830648286
+2025-08-09 20:24:27,596 - INFO - Train Pearson correlation: 1.000
+2025-08-09 20:24:27,596 - INFO - Train Spearman correlation: 0.999
+2025-08-09 20:24:33,387 - INFO - Validation Pearson correlation: -0.038
+2025-08-09 20:24:33,388 - INFO - Validation Spearman correlation: -0.130
+2025-08-09 20:25:27,218 - INFO - Test progress: 500 predictions finished
+2025-08-09 20:26:21,032 - INFO - Test progress: 1000 predictions finished
+2025-08-09 20:27:14,819 - INFO - Test progress: 1500 predictions finished
+2025-08-09 20:28:08,607 - INFO - Test progress: 2000 predictions finished
+2025-08-09 20:29:02,382 - INFO - Test progress: 2500 predictions finished
+2025-08-09 20:29:56,432 - INFO - Test progress: 3000 predictions finished
+2025-08-09 20:30:50,186 - INFO - Test progress: 3500 predictions finished
+2025-08-09 20:31:43,942 - INFO - Test progress: 4000 predictions finished
+2025-08-09 20:32:37,964 - INFO - Test progress: 4500 predictions finished
+2025-08-09 20:33:31,807 - INFO - Test progress: 5000 predictions finished
+2025-08-09 20:34:25,561 - INFO - Test progress: 5500 predictions finished
+2025-08-09 20:35:19,492 - INFO - Test progress: 6000 predictions finished
+2025-08-09 20:36:13,260 - INFO - Test progress: 6500 predictions finished
+2025-08-09 20:37:07,108 - INFO - Test progress: 7000 predictions finished
+2025-08-09 20:38:00,883 - INFO - Test progress: 7500 predictions finished
+2025-08-09 20:38:54,650 - INFO - Test progress: 8000 predictions finished
+2025-08-09 20:39:48,419 - INFO - Test progress: 8500 predictions finished
+2025-08-09 20:40:42,197 - INFO - Test progress: 9000 predictions finished
+2025-08-09 20:41:35,974 - INFO - Test progress: 9500 predictions finished
+2025-08-09 20:42:29,753 - INFO - Test progress: 10000 predictions finished
+2025-08-09 20:43:23,528 - INFO - Test progress: 10500 predictions finished
+2025-08-09 20:44:17,292 - INFO - Test progress: 11000 predictions finished
+2025-08-09 20:45:11,060 - INFO - Test progress: 11500 predictions finished
+2025-08-09 20:46:04,828 - INFO - Test progress: 12000 predictions finished
+2025-08-09 20:46:58,601 - INFO - Test progress: 12500 predictions finished
+2025-08-09 20:47:52,370 - INFO - Test progress: 13000 predictions finished
+2025-08-09 20:48:46,130 - INFO - Test progress: 13500 predictions finished
+2025-08-09 20:49:41,561 - INFO - Test progress: 14000 predictions finished
+2025-08-09 20:50:35,331 - INFO - Test progress: 14500 predictions finished
+2025-08-09 20:51:29,092 - INFO - Test progress: 15000 predictions finished
+2025-08-09 20:52:32,612 - INFO - Test progress: 15500 predictions finished
+2025-08-09 20:53:26,742 - INFO - Test progress: 16000 predictions finished
+2025-08-09 20:54:20,511 - INFO - Test progress: 16500 predictions finished
+2025-08-09 20:55:14,307 - INFO - Test progress: 17000 predictions finished
+2025-08-09 20:56:09,236 - INFO - Test progress: 17500 predictions finished
+2025-08-09 20:57:05,239 - INFO - Test progress: 18000 predictions finished
+2025-08-09 20:57:59,580 - INFO - Test progress: 18500 predictions finished
+2025-08-09 20:58:55,184 - INFO - Test progress: 19000 predictions finished
+2025-08-09 20:59:36,045 - INFO - Prediction size: 19380
+2025-08-09 20:59:36,550 - INFO - Model saved to: ../../autodl-tmp/Prime_690M_peft400
