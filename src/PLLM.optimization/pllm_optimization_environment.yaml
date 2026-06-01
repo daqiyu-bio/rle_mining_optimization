@@ -7,15 +7,15 @@ channels:
 
 dependencies:
   - python=3.12
-  - pip
+  - pip=25.1.1
   - pytorch=2.6.0
   - pytorch-cuda=12.4
   - cuda-toolkit=12.4
   - cudnn=12.4
   - torchvision=0.21.0
-  - torchaudio=0.21.0
+  - torchaudio=2.6.0
   - numpy
   - pandas
   - scipy
-  - transformers
-  - peft
+  - transformers=4.54.0
+  - peft=0.16.0
