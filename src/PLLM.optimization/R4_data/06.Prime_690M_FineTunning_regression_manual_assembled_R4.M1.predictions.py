@@ -1,14 +1,23 @@
-### 20250208
-### Yudq
-### Description : Using the HuggingFace:AI4Protein/ProPrime_650M model to solve regression problem. trust_remote_code is needed.
-### using either full parameter fine tunning, LoRA or top-layers.
-### Fine-tuned model can be saved.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+# ------------------------------------------------------------------------------------------#
+# Copyright (c) 2026 Beijing Astragenomics Technology Co., Ltd. All rights reserved.        #
+# Licensing: see the LICENSE file in the repository root.                                   #
+# version : 1.1                                                                             #
+#                                                                                           #
+# Author:                                                                                   #
+#   Daqi Yu <daqi.yu@astragenomics.com>                                                     #
+#                                                                                           #
+# Description:                                                                              #
+#   Using the HuggingFace:AI4Protein/Prime_690M model to solve a regression problem.        #
+#   using either full parameter fine tunning, LoRA or top-layers.                           #
+# ------------------------------------------------------------------------------------------#
 
 import torch
 from transformers import AutoTokenizer, AutoModel, get_linear_schedule_with_warmup
 from torch.utils.data import Dataset, DataLoader
-import os, math, re
+import os, re
 import pandas as pd
 import numpy as np
 import torch.nn as nn

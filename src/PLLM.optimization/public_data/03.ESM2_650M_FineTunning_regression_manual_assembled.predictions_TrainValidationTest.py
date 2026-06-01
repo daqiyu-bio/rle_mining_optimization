@@ -1,13 +1,23 @@
-### 20250606
-### Yudq
-### Description : Using the HuggingFace:facebook/esm2_t33_650M_UR50D model to solve regression problem.
-### using either full parameter fine tunning, LoRA or top-layers.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+# ------------------------------------------------------------------------------------------#
+# Copyright (c) 2026 Beijing Astragenomics Technology Co., Ltd. All rights reserved.        #
+# Licensing: see the LICENSE file in the repository root.                                   #
+# version : 1.1                                                                             #
+#                                                                                           #
+# Author:                                                                                   #
+#   Daqi Yu <daqi.yu@astragenomics.com>                                                     #
+#                                                                                           #
+# Description:                                                                              #
+#   Using the HuggingFace:facebook/esm2_t33_650M_UR50D model to solve a regression problem. #
+#   using either full parameter fine tunning, LoRA or top-layers.                           #
+# ------------------------------------------------------------------------------------------#
 
 import torch
 from transformers import AutoTokenizer, EsmModel, get_linear_schedule_with_warmup
 from torch.utils.data import Dataset, DataLoader
-import os, math, re
+import os
 import pandas as pd
 import numpy as np
 import torch.nn as nn
