@@ -11,7 +11,7 @@ dependencies:
   - pytorch=2.6.0
   - pytorch-cuda=12.4
   - cuda-toolkit=12.4
-  - cudnn=12.4
+  - cudnn=9.1.0
   - torchvision=0.21.0
   - torchaudio=2.6.0
   - numpy
